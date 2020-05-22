@@ -12,7 +12,7 @@
 
 	<!-- CSS -->
 
-	<link href="dropshop.css" rel="stylesheet" type="text/css">
+	<link href="{{ url('css/dropshop.css') }}" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -21,7 +21,7 @@
 			
 
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#"><img src="DSlogo.jpg" class="img-responsive logo"></a>
+			 <a class="navbar-brand" href="#"><img src="{{ url('img/DSlogo.jpg') }}" class="img-responsive logo"></a>
 		</div>
 
 
