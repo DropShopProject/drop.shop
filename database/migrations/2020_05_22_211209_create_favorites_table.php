@@ -18,7 +18,7 @@ class CreateFavoritesTable extends Migration
                 $table->foreign('userID')->references('id')->on('users');
             $table->unsignedBigInteger('productID');            
                 $table->foreign('productID')->references('id')->on('products');
-            $table->primary(['userID', 'productID'])
+            $table->primary(['userID', 'productID']);
         });
     }
 
