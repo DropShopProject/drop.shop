@@ -17,7 +17,7 @@ class CreatePasswordResetTable extends Migration
             $table->id();
             $table->unsignedBigInteger('userID');
             $table->bigInteger('resetCode');
-            $table->timestamps('codeExpiration');
+            $table->dateTime('codeExpiration');
             $table->foreign('userID')->references('id')->on('users');
             $table->timestamps();
         });
