@@ -8,7 +8,7 @@
 	<title>Drop Shop</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 
@@ -30,7 +30,7 @@
 			
 
 		<div class="navbar-header">
-			 <a class="navbar-brand" href="#"><img src="{{ url('img/DSlogo.jpg') }}" class="img-responsive logo"></a>
+			 <a class="navbar-brand" href="{{ route('drop-shop') }}"><img src="{{ url('img/DSlogo.jpg') }}" class="img-responsive logo"></a>
 		</div>
 
 
@@ -39,27 +39,31 @@
   		</button>
 
 	 	<div class="collapse navbar-collapse justify-content-center" id="navbarItems">
-    		<ul class="navbar-nav" id="navbarItems">
-      			<li class="nav-item">
+    		<ul class="navbar-nav navbar-center" id="navbarItems">
+      			<!-- <li class="nav-item">
         			<a class="nav-link" href="#">Home</a>
+      			</li> -->
+      			<li class="nav-item">
+        			<a class="nav-link" href="{{ route('products') }}">PRODUCTS</a>
       			</li>
       			<li class="nav-item">
-        			<a class="nav-link" href="#">Products</a>
+        			<a class="nav-link" href="{{ route('calendar') }}">CALENDAR</a>
       			</li>
       			<li class="nav-item">
-        			<a class="nav-link" href="#">Calendar</a>
+        			<a class="nav-link" href="#">CONTACT</a>
       			</li>
-      			<li class="nav-item">
-        			<a class="nav-link" href="#">Contact Us</a>
-      			</li>
+
+            <!-- User icon button -->
+            <li>
+              <a href="#" class="btn btn-info btn-lg btn-light" id="User-icon">
+              <span class="glyphicon glyphicon-user"></span> 
+              </a>
+           </li>
+
     		</ul>
         
-        <!-- User icon button -->
-        <a href="#" class="btn btn-info btn-lg btn-light">
-          <span class="glyphicon glyphicon-user"></span> User 
-        </a>
   
-  		</div>
+  	</div>
 
 
 		
@@ -231,8 +235,8 @@ function showSlides() {
 </script>
 
 <div class="container-fluid">
-  <h2 style="color: black; font-size: 45px;">About Us</h2><br>
-  <p style="color: black; font-size: 21px;">We strive to provide the SneakerHead community with a streamline hub that consists of product availability, price comaprisons, and release information.</p>
+  <h2 style="color: black; font-size: 50px;">ABOUT US</h2><br>
+  <p style="color: black; font-size: 25px;">We strive to provide the SneakerHead community with a streamline hub that consists of product availability, price comaprisons, and release information.</p>
 
 </div>
 
