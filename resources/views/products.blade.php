@@ -20,6 +20,8 @@
 </head>
 <body>
 	<header>
+
+		<!-- NAV BAR -->
 		<nav class="navbar navbar-expand-md bg-light navbar-light">
 			
 
@@ -44,7 +46,7 @@
         			<a class="nav-link" href="{{ route('calendar') }}">CALENDAR</a>
       			</li>
       			<li class="nav-item">
-        			<a class="nav-link" href="#">CONTACT</a>
+        			<a class="nav-link" href="{{ route('contact') }}">CONTACT</a>
       			</li>
             <!-- User icon button -->
             	<li>
@@ -57,48 +59,60 @@
 		</nav>
 	</header>
 
+	<!-- PRODUCTS Heading--> 
 <div class="container-fluid">
 	<h1 id="Prod-header"style="color: black; text-align: center; font-size: 58px;">PRODUCTS</h1>
 </div>
 
-<div class="container">
+
+<div class="container-fluid" id="products-container">
+
+		<!-- Product tab -->
 
 	<div class="row" id="product-tab">
 		<div class="col-md">
-			<ul class="list-group">
-  				<li class="list-group-item list-group-item-dark list-group-item-action">Cras justo odio</li>
-  				<li class="list-group-item list-group-item-dark list-group-item-action">Dapibus ac facilisis in</li>
-  				<li class="list-group-item list-group-item-dark list-group-item-action">Morbi leo risus</li>
-  				<li class="list-group-item list-group-item-dark list-group-item-action">Porta ac consectetur ac</li>
-  				<li class="list-group-item list-group-item-dark list-group-item-action">Vestibulum at eros</li>
+			<ul class="list-group" style="max-width: 150px;">
+  				<li class="list-group-item list-group-item-dark list-group-item-action">Travis Scott</li>
+  				<li class="list-group-item list-group-item-dark list-group-item-action">Drake</li>
+  				<li class="list-group-item list-group-item-dark list-group-item-action">Kanye</li>
+  				<li class="list-group-item list-group-item-dark list-group-item-action">A$AP ROCKY</li>
+  				<li class="list-group-item list-group-item-dark list-group-item-action">Ray Allen</li>
+  				<li class="list-group-item list-group-item-dark list-group-item-action">Kobe Bryant</li>
+  				<li class="list-group-item list-group-item-dark list-group-item-action">Kobe Bryant</li>
+  				<li class="list-group-item list-group-item-dark list-group-item-action">Kobe Bryant</li>
 			</ul>
 		</div>
 	</div>
 
 		<!-- Product View -->
 
-		<div class="col-lg" id="row1">
-			Product 1.
+<div id="product-view">
+		<div class="col-md-4" id="row1"><img src="{{ url('img/j1unc.jpg') }}" style="width: 275px; height: 200px;"><br>
+			<p style="text-decoration: underline;">Jordan 1 Retro High x Off-White "UNC"</p>
 		</div>
-		<div class="col-lg" id="row1">
-			Product 2.
+		<div class="col-md-4" id="row2"><img src="{{ url('img/yeezybr.jpg') }}" style="width: 275px; height: 200px;"><br>
+			<p style="text-decoration: underline;">Adidas x Yeezy "Yeezy Boost 350 V2 Black Red"</p>
 		</div>
-		<div class="col-lg" id="row1">
-			Product 3.
+		<div class="col-md-4" id="row3"><img src="{{ url('img/supnike.jpg') }}" style="width: 325px; height: 200px;"><br>
+			<p style="text-decoration: underline;">Supreme x Nike "Air Force 1"</p>
 		</div>
-		<!-- Row 2 -->
-<!-- 	<div class="row" id="row2">
-		<div class="col">
-			Product 5.
+		<div class="col-md-4" id="row4"><img src="{{ url('img/nike97ud.jpg') }}" style="width: 325px; height: 200px;"><br>
+			<p style="text-decoration: underline;">Nike x UNDFTD "Air Max 97"</p>
 		</div>
-		<div class="col">
-			Product 6.
+		<div class="col-md-4" id="row5"><img src="{{ url('img/jdior.jpg') }}" style="width: 300px; height: 200px;"><br>
+			<p style="text-decoration: underline;">Jordan 1 x Dior </p>
 		</div>
-		<div class="col">
-			Product 7.
+		<div class="col-md-4" id="row6"><img src="{{ url('img/ts4.jpg') }}" style="width: 325px; height: 200px;"><br>
+			<p style="text-decoration: underline;">Travis Scott x Jordan "Cactus Jack 4"</p>
 		</div>
-	</div> -->
 </div>
+
+
+
+
+
+</div>
+
 
 </body>
 </html>

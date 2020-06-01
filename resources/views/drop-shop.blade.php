@@ -50,7 +50,7 @@
         			<a class="nav-link" href="{{ route('calendar') }}">CALENDAR</a>
       			</li>
       			<li class="nav-item">
-        			<a class="nav-link" href="#">CONTACT</a>
+        			<a class="nav-link" href="{{ route('contact') }}">CONTACT</a>
       			</li>
 
             <!-- User icon button -->

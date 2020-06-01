@@ -24,3 +24,7 @@ Route::get('products', function () {
 Route::get('calendar', function () {
     return view('calendar');
 })-> name("calendar");
+
+Route::get('contact', function () {
+    return view('contact');
+})-> name("contact");
