@@ -32,3 +32,5 @@ Route::get('contact', function () {
 Route::get('travisscott', function () {
     return view('travisscott');
 })-> name("travisscott");
+
+Route::get('view-account', 'UserController@show_account_page');
