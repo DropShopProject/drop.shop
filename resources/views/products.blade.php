@@ -62,10 +62,11 @@
 
 	<!-- PRODUCTS Heading--> 
 <div class="container-fluid">
-	<h1 id="Prod-header"style="color: black; text-align: center; font-size: 58px;">PRODUCTS</h1>
+	<h1 id="Prod-header"style="color: black; text-align: center; font-size: 75px;">PRODUCTS</h1>
 </div>
 
 
+    <!-- PRODUCTS TAB -->
 <div class="container-fluid" id="products-container">
   <div class="row text-center">
     <div class="col col-lg-1 col-md-6 col-sm-auto col-xs-auto">
@@ -84,39 +85,36 @@
     </div>
 
 
+      <!-- LOGO BANNER -->
     <div class="col col-lg-11">
-      <div id="logo banner">
+      <div id="logo-banner">
       <table width="100%" id="products-table">
       <tbody>
         <tr>
           <td width="20%">
-            <img src="{{ url('img/nikelogo.jpg') }}"><br>
+            <img src="{{ url('img/nikelogo.jpg') }}" style="width: 200px; height: 200px;"><br>
           </td>
           <td width="20%">
-            <img src="{{ url('img/adidaslogo.jpg') }}"><br>
+            <img src="{{ url('img/adidaslogo.jpg') }}" style="width: 178px; height: 200px;"><br>
           </td>
           <td width="20%">
-            <img src="{{ url('img/jordanlogo.jpg') }}"><br>
+            <img src="{{ url('img/jordanlogo.jpg') }}" style="width: 200px; height: 200px;"><br>
           </td>
           <td width="20%">
-            <img src="{{ url('img/supremelogo.jpg') }}"><br>
+            <img src="{{ url('img/supremelogo.jpg') }}" style="width: 175px; height: 200px;"><br>
           </td> 
           <td width="20%">
-            <img src="{{ url('img/offwhitelogo.jpg') }}"><br>
+            <img src="{{ url('img/offwhitelogo.jpg') }}" style="width: 200px; height: 200px;"><br>
           </td> 
         </tr>
       </tbody>
     </table>
     </div>
     </div>
-
-
-
-
-
-
   </div>
 
+
+    <!-- FIRST ROW OF SNKRS -->
 <div class="row text-center">
   <div class="col col-lg-12 col-md-auto col-sm-auto">
   <div id="products1">
@@ -125,15 +123,15 @@
         <tr>
           <td width="33%">
             <img src="{{ url('img/j1unc.jpg') }}" style="width: 275px; height: 200px;"><br>
-            <span style="text-decoration: underline; font-size: 14px;">JORDAN 1 RETRO HIGH x OFF-WHITE "UNC"</span>
+            <span style="text-decoration: underline; font-size: 17px;">JORDAN 1 RETRO HIGH x OFF-WHITE "UNC"</span>
           </td>
           <td width="33%">
             <img src="{{ url('img/yeezybr.jpg') }}" style="width: 275px; height: 200px;"><br>
-          <span style="text-decoration: underline; font-size: 14px;">ADIDAS x YEEZY "YEEZY BOOST 350 V2 BLACK RED"</span>
+          <span style="text-decoration: underline; font-size: 17px;">ADIDAS x YEEZY "YEEZY BOOST 350 V2 BLACK RED"</span>
           </td>
           <td width="33%">
-            <img src="{{ url('img/supnike.jpg') }}" style="width: 325px; height: 200px;"><br>
-            <span style="text-decoration: underline; font-size: 14px;">SUPREME x NIKE "AIR FORCE 1"</span>
+            <img src="{{ url('img/supnike.jpg') }}" style="width: 275px; height: 200px;"><br>
+            <span style="text-decoration: underline; font-size: 17px;">SUPREME x NIKE "AIR MAX 98'"</span>
           </td> 
         </tr>
       </tbody>
@@ -142,6 +140,8 @@
 </div>
 </div>
 
+
+      <!-- SECOND ROW OF SNKRS -->
 <div class="row text-center">
   <div class="col col-lg-12 col-md-auto col-sm-auto">
   <div id="products2">
@@ -149,16 +149,16 @@
       <tbody>
         <tr>
           <td width="33%">
-            <img src="{{ url('img/nike97ud.jpg') }}" style="width: 300px; height: 200px;"><br>
-            <span style="text-decoration: underline; font-size: 14px;">NIKE x UNDFTD "AIR MAX 97"</span>
+            <img src="{{ url('img/nike97ud.jpg') }}" style="width: 275px; height: 200px;"><br>
+            <span style="text-decoration: underline; font-size: 17px;">NIKE x UNDFTD "AIR MAX 97"</span>
           </td>
           <td width="33%">
             <img src="{{ url('img/jdior.jpg') }}" style="width: 275px; height: 200px;"><br>
-            <span style="text-decoration: underline; font-size: 14px;">JORDAN 1 x DIOR</span>
+            <span style="text-decoration: underline; font-size: 17px;">JORDAN 1 x DIOR</span>
           </td>
           <td width="33%">
-            <img src="{{ url('img/ts4.jpg') }}" style="width: 325px; height: 200px;"><br>
-            <span style="text-decoration: underline; font-size: 14px;">TRAVIS SCOTT x JORDAN "CACTUS JACK 4"</span>
+            <img src="{{ url('img/ts4.jpg') }}" style="width: 275px; height: 200px;"><br>
+            <span style="text-decoration: underline; font-size: 17px;">TRAVIS SCOTT x JORDAN "CACTUS JACK 4"</span>
           </td> 
         </tr>
       </tbody>
@@ -180,4 +180,9 @@
 
 
 </body>
+<footer class="footer">
+  <div class="panel-footer" align="center">
+    <span class="text-muted" align="center" style="font-size: 14px;">Derived From The Community, For The Community.</span>
+  </div>
+</footer>
 </html>

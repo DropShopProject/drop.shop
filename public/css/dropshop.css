@@ -49,6 +49,7 @@
   max-width: 800px;
   position: relative;
   margin: auto;
+  padding-top: 80px;
 }
 
 /* Hide the images by default */
@@ -183,10 +184,23 @@ align-items: baseline;
 /*.col-lg-1{
   padding-top: 50px;
 }*/
+
+#products1{
+padding-top: 90px;
+}
+
 #products2{
-padding-top: 60px;
+padding-top: 90px;
 }
 
 #product-tab{
   position: fixed;
+}
+#logo-banner{
+  padding-right: 165px;
+  padding-top:  60px; 
+
+}
+.footer{
+  padding-top:  60px;
 }
