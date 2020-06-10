@@ -122,7 +122,7 @@
       <tbody>
         <tr>
           <td width="33%">
-            <img src="{{ url('img/j1unc.jpg') }}" style="width: 275px; height: 200px;"><br>
+            <img src="{{ url('img/j1unc.jpg') }}" class="img-fluid z-depth-5 rounded" style="width: 275px; height: 200px;"><br>
             <span style="text-decoration: underline; font-size: 17px;">JORDAN 1 RETRO HIGH x OFF-WHITE "UNC"</span>
           </td>
           <td width="33%">
