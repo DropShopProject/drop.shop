@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Drop Shop  - Calendar</title>
+	<title>Drop Shop  - Contact Us</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -17,6 +17,18 @@
 	<!-- CSS -->
 
 	<link href="{{ url('css/dropshop.css') }}" rel="stylesheet" type="text/css">
+
+  <style type="text/css">
+    #social {
+      opacity: 0.8;
+    }
+    #social:hover {
+      opacity: 1.0;
+    }
+    h1 {
+      padding: 100px 0px;
+    }
+  </style>
 </head>
 <body>
 	<header>
@@ -56,6 +68,34 @@
   		</div>		
 		</nav>
 	</header>
+  <section>
+    <h1 class="text-center" style="font-size: 60px;">CONTACT</h1>
+    <div class="container-fluid justify-content-center">
+      <div class="row">
+        <div class="col-md-4 d-flex justify-content-center">
+          <a href="mailto:dropshop4935@gmail.com">
+            <span style="font-size:200px;" class="glyphicon glyphicon-envelope"></span>
+          </a>
+          <a href="mailto:dropshop4935@gmail.com">
+          </a>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <a href="https://instagram.com/dropshop4935?igshid=1ci1k571w1da5">
+          <img src="{{ url('img/ig-logo.png') }}" height="200" width="200" class="img-fluid" id="social">
+          </a>
+          <a href="https://instagram.com/dropshop4935?igshid=1ci1k571w1da5">
+          </a>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <a href="https://twitter.com/DropShop4935">
+          <img src="{{ url('img/twitter-logo.png') }}" height="200" width="200" class="img-fluid" id="social">
+          </a>
+          <a href="https://twitter.com/DropShop4935">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 </body>

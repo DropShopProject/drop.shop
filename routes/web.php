@@ -34,3 +34,5 @@ Route::get('travisscott', function () {
 })-> name("travisscott");
 
 Route::get('view-account', 'UserController@show_account_page');
+
+Route::get('send-mail', 'MailController@sendMail');
