@@ -143,7 +143,7 @@
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
         <img src="{{ url('img/nike97ud.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
-        <figcaption style="text-decoration: underline; font-size: 17px;">NIKE x UNDFTD "AIR MAX 97"</figcaption>
+        <figcaption style="text-decoration: underline; font-size: 17px;">{{$TestShoe->brandName}}{{$TestShoe->productName}}"</figcaption>
         </figure>
       </div>
       <div class="col-md-4 d-flex justify-content-center">

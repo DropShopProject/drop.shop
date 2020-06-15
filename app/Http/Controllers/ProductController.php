@@ -9,11 +9,12 @@ class ProductController extends Controller
 {
     public function show_product_details() {
 
-        $nikeFreerun = Product::where('id', '=', '1')->get();
+        $TestShoe = Product::where('id', '=', '1')->get();
 
-        $adidasNMD = Product::where('id', '=', '2')->get();
+        //$adidasNMD = Product::where('id', '=', '2')->get();
         
-        return view('products')->with('nikeFreerun', $nikeFreerun[0])->with('adidasNMD', $adidasNMD[0]);
+        return view('products')->with('TestShoe', $TestShoe[0]);
+        		//->with('adidasNMD', $adidasNMD[0]);
     }
 }
  
