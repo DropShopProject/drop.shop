@@ -35,10 +35,9 @@ Route::get('create-account', 'UserController@create')->name("create-account");
 
 Route::post('create-account', 'UserController@store');
 
-
 Route::get('view-account', 'UserController@show_account_page');
 
-Route::get('send-mail', 'MailController@sendMail');
+Route::get('send-mail', 'MailController@send');
 
 Route::get('test-view', 'FavoriteController@show_favorite_details');
 
