@@ -17,9 +17,7 @@ Route::get('/', function () {
     return view('drop-shop');
 })-> name("drop-shop");
 
-Route::get('products', function () {
-    return view('products');
-})-> name("products");
+Route::get('products', 'ProductController@show_product_details')-> name("products");
 
 Route::get('calendar', function () {
     return view('calendar');
@@ -33,6 +31,14 @@ Route::get('travisscott', function () {
     return view('travisscott');
 })-> name("travisscott");
 
+Route::get('create-account', 'UserController@create')->name("create-account");
+
+Route::post('create-account', 'UserController@store');
+
+
 Route::get('view-account', 'UserController@show_account_page');
 
 Route::get('send-mail', 'MailController@sendMail');
+
+Route::get('test-view', 'FavoriteController@show_favorite_details');
+
