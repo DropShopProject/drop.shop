@@ -27,6 +27,10 @@ Route::get('contact', function () {
     return view('contact');
 })-> name("contact");
 
+Route::get('create-account', function () {
+    return view('create-account');
+})-> name("create-account");
+
 Route::get('travisscott', function () {
     return view('travisscott');
 })-> name("travisscott");
