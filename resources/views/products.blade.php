@@ -52,7 +52,7 @@
                   </li>
             <!-- User icon button -->
               <li>
-                  <a href="#" class=" nav-link btn btn-info btn-lg btn-light" id="User-icon">
+                  <a href="" class=" nav-link btn btn-info btn-lg btn-light" id="User-icon">
                   <span class="glyphicon glyphicon-user"></span> 
                   </a>
               </li>
@@ -96,6 +96,7 @@
 
 
 <section>
+  
   <div class="container-fluid justify-content-center">
 
     <!-- PRODUCTS NAV BAR -->
