@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="em">
 @include('template/headtag', ['title' => 'Drop Shop Products'])
+
+<script>
+$(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $("#fade-prod").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+</script>
+
 <body>
 @include('template/navbar')
 
 
-	<!-- PRODUCTS Heading--> 
+  <!-- PRODUCTS Heading--> 
 <div class="container-fluid">
 <h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">PRODUCTS</h1>
 <div class="row text-center" id="logo-banner">
@@ -64,13 +84,7 @@
                     <a class="nav-link" href="#">A$AP ROCKY</a>
                   </li>
                   <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">RAY ALLEN</a>
-                  </li>
-                  <li class="nav-item ml-auto">
                     <a class="nav-link" href="#">KOBE BRYANT</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">KENDRICK LAMAR</a>
                   </li>
                   <li class="nav-item ml-auto">
                     <a class="nav-link" href="#">OFF-WHITE</a>
@@ -83,7 +97,8 @@
     </nav>
 
     <!-- FIRST ROW OF SHOES -->
-    <div class="row text-center" id="products1">
+    <div class="row text-center fade-prod" id="products1">
+      
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
         <img src="{{ url('img/nike97ud.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
@@ -102,10 +117,12 @@
         <figcaption style="text-decoration: underline; font-size: 17px;">JORDAN 1 RETRO HIGH X OFF-WHITE "UNC"</figcaption>
         </figure>
       </div>
+     
     </div>
 
     <!-- SECOND ROW OF SHOES -->
-    <div class="row text-center" id="products2">
+    <div class="row text-center fade-prod" id="products2">
+     
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
         <img src="{{ url('img/ts4.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
@@ -124,6 +141,7 @@
         <figcaption style="text-decoration: underline; font-size: 17px;">SUPREME x NIKE "AIR MAX 98'"</figcaption>
         </figure>
       </div>
+      
     </div>
 
 
@@ -136,63 +154,15 @@
 
 
 
-  </div>
 
+
+
+
+</div>
 
 </section>
 
 
-
-
-
-
-
-
+@include('template/footer')
 </body>
-<!-- Footer -->
-<footer class="page-footer">
-
-  <!-- Footer Elements -->
-  <div class="container">
-
-    <!-- Social buttons -->
-    <ul>
-      <li>
-        <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-li mx-1">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-dribbble mx-1">
-          <i class="fab fa-dribbble"> </i>
-        </a>
-      </li>
-    </ul>
-    <!-- Social buttons -->
-
-  </div>
-  <!-- Footer Elements -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
 </html>

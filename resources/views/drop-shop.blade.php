@@ -232,10 +232,8 @@ function showSlides() {
 
 </div>
 
+
+@include('template/footer')
 </body>
-<footer class="footer">
-  <div class="panel-footer" align="center">
-    <span class="text-muted" align="center" style="font-size: 14px;">Derived From The Community, For The Community.</span>
-  </div>
-</footer>
+
 </html>
