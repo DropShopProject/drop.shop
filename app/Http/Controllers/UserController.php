@@ -29,7 +29,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        return view('create-account');
+        return view('login');
     }
 
     /**
@@ -57,7 +57,7 @@ class UserController extends Controller
         
         $account->save();
 
-        return redirect()->route('create-account')->with('success', 'Account Created');
+        return redirect()->route('account')->with('success', 'Account Created');
     }
 
     /**

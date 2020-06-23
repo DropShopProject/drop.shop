@@ -27,17 +27,18 @@ Route::get('contact', function () {
     return view('contact');
 })-> name("contact");
 
-Route::get('create-account', function () {
-    return view('create-account');
-})-> name("create-account");
+Route::get('login', function () {
+    return view('login');
+})-> name("login");
+
 
 Route::get('travisscott', function () {
     return view('travisscott');
 })-> name("travisscott");
 
-Route::get('create-account', 'UserController@create')->name("create-account");
+Route::get('login', 'UserController@create')->name("login");
 
-Route::post('create-account', 'UserController@store');
+Route::post('login', 'UserController@store');
 
 Route::get('view-account', 'UserController@show_account_page');
 
@@ -45,3 +46,7 @@ Route::get('send-mail', 'MailController@send');
 
 Route::get('test-view', 'FavoriteController@show_favorite_details');
 
+
+Auth::routes();
+
+Route::get('/account', 'HomeController@index')->name('account');
