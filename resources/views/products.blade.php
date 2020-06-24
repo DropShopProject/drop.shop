@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="em">
-@include('template/headtag', ['title' => 'Drop Shop Products'])
+@include('template/headtag', ['title' => 'DropShop Products'])
 
-<script>
+<!-- <script>
 $(window).on("load",function() {
   $(window).scroll(function() {
     var windowBottom = $(this).scrollTop() + $(this).innerHeight();
@@ -19,9 +19,11 @@ $(window).on("load",function() {
     });
   }).scroll(); //invoke scroll-handler on page-load
 });
-</script>
+</script> -->
+
 
 <body>
+
 @include('template/navbar')
 
 
@@ -97,13 +99,13 @@ $(window).on("load",function() {
     </nav>
 
     <!-- FIRST ROW OF SHOES -->
-    <div class="row text-center fade-prod" id="products1">
+    <div class="row text-center product-leftAK" id="products1">
       
       <div class="col-md-4 d-flex justify-content-center">
-        <figure class="figure">
-        <img src="{{ url('img/nike97ud.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
-        <figcaption style="text-decoration: underline; font-size: 17px;">{{$TestShoe->brandName}}{{$TestShoe->productName}}"</figcaption>
-        </figure>
+            <figure class="figure">
+            <img src="{{ url('img/nike97ud.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
+            <figcaption style="text-decoration: underline; font-size: 17px;">{{$TestShoe->brandName}}{{$TestShoe->productName}}</figcaption>
+            </figure>
       </div>
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
@@ -121,7 +123,7 @@ $(window).on("load",function() {
     </div>
 
     <!-- SECOND ROW OF SHOES -->
-    <div class="row text-center fade-prod" id="products2">
+    <div class="row text-center product-rightAK" id="products2">
      
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
@@ -145,6 +147,30 @@ $(window).on("load",function() {
     </div>
 
 
+      <!-- TEST ROW -->
+   <div class="row text-center product-left1AK" id="products1">
+      
+      <div class="col-md-4 d-flex justify-content-center">
+            <figure class="figure">
+            <img src="{{ url('img/nike97ud.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
+            <figcaption style="text-decoration: underline; font-size: 17px;">{{$TestShoe->brandName}}{{$TestShoe->productName}}</figcaption>
+            </figure>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/jdior.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
+        <figcaption style="text-decoration: underline; font-size: 17px;">JORDAN 1 RETRO HIGH X DIOR</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/j1unc.jpg') }}" class="img-fluid z-depth-5 rounded" class="img-fluid" style="width: 275px; height: 200px;">
+        <figcaption style="text-decoration: underline; font-size: 17px;">JORDAN 1 RETRO HIGH X OFF-WHITE "UNC"</figcaption>
+        </figure>
+      </div>
+     
+    </div>
+
 
 
 
@@ -164,5 +190,46 @@ $(window).on("load",function() {
 
 
 @include('template/footer')
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<script>
+  window.sr = ScrollReveal();
+  sr.reveal('.product-leftAK', {
+
+      duration: 3500,
+      origin: 'left',
+      distance:'300px'
+
+
+  });
+  sr.reveal('.product-rightAK', {
+
+      duration: 3500,
+      origin: 'right',
+      distance: '300px',
+      viewFactor: 0.4
+
+
+  });
+   sr.reveal('.product-left1AK', {
+
+      duration: 3500,
+      origin: 'top',
+      distance: '300px',
+      viewFactor: 0.3
+
+
+  });
+
+</script>
 </body>
+
+
 </html>
