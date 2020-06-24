@@ -28,4 +28,5 @@
 	<!-- CSS -->
 
 	<link href="{{ url('css/dropshop.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url('css/app.css') }}" rel="stylesheet" type="text/css">
 </head>

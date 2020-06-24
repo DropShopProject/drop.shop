@@ -1,25 +1,24 @@
 <!--<!DOCTYPE HTML> -->
 <html>
-<head>
-    <title>DropShop Login</title>
-        
-        <link href="{{ url('css/app.css') }}" rel="stylesheet" type="text/css">
-    <body>
+@include('template/headtag', ['title' => 'DropShop Login'])
+
+    <body class="login-body">
+        @include('template/navbar')
         <div class="loginbox">
-            <img src="/img/DSlogo3.jpg" class="logo">
-                <h1>Login</h1>
+            <img src="/img/DSlogo3.jpg" class="login-logo">
+                <h1 class="login-h1">Login</h1>
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
 
                    <!-- Email field with autofill functionality -->
-                   <p>Email</p>
+                   <p class='login-p'>Email</p>
                    <input id="email" type="email" name="email" placeholder="Enter Email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" required autocomplete="email" autofocus>
                    
                    
                     
 
                     <!-- Password field with autofill functionality -->
-                    <p>Password</p>
+                    <p class='login-p'>Password</p>
                     <input id="password" type="password" name ="password" placeholder="Enter Password" class="form-control @error('password') is-invalid @enderror" required autocomplete="current-password">
                     
                     

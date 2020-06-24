@@ -1,23 +1,29 @@
-@extends('layouts.app')
+<!--<!DOCTYPE html>-->
+<html lang="em">
+@include('template/headtag', ['title' => 'DropShop Account'])
+    
+    <body class="account-body">
+        @include('template/navbar')
+        <div class="account-details-box">
+            <img src="/img/DSlogo3.jpg" class="login-logo">
+            <h1 class="account-h1">Welcome {{ Auth::user()->name }}</h1>
+            <h2 class="account-h2">Account Details</h2>
+            <p class="account-p">Name: {{ Auth::user()->name }}
+                <br>
+                <br>
+                Email: {{ Auth::user()->email }}</p>
+    
+    
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Welcome to DropShop</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
+            <!-- Logout Button -->
+            <div class="logout-button">
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" >
+                    @csrf
+                    <input type="submit" value="Logout">
+                </form>
             </div>
+
+            <a href="{{ route('password.request') }}">Reset Password</a><br>
         </div>
-    </div>
-</div>
-@endsection
+    </body>
+</html>
