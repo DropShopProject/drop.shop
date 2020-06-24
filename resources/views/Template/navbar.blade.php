@@ -26,7 +26,8 @@
                   <li class="nav-item ml-auto">
                     <a class="nav-link" href="{{ route('contact') }}">CONTACT</a>
                   </li>
-            <!-- User icon button -->
+            
+                       <!-- User icon button -->
               <li>
                   <a href="{{ route('login') }}" class=" nav-link btn btn-info btn-lg btn-light" id="User-icon">
                   <span class="glyphicon glyphicon-user"></span> 
