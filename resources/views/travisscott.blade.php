@@ -1,261 +1,185 @@
-<!DOCTYPE hmtm>
+<!DOCTYPE html>
 <html lang="em">
-<head>
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Drop Shop</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-	<!-- CSS -->
-
-	<link href="{{ url('css/dropshop.css') }}" rel="stylesheet" type="text/css">
-
-  <style type="text/css">
-    h1 {
-      padding: 100px 0px;
-    }
-    h4 {
-      color: green;
-    }
-    #size:hover {
-      border-color: black!important;
-      cursor: pointer;
-    }
-    #logo {
-      opacity: 0.8;
-    }
-    #logo:hover {
-      opacity: 1.0;
-    }
-    figcaption {
-      text-decoration: underline;
-      font-size: 18px;
-      cursor: pointer;
-    }
-    figcaption:hover {
-      color: red;
-    }
-    #logo-banner {
-      padding-top: 50px;
-    }
-    #products-navbar {
-      padding-top: ;
-    }
-    #social {
-      opacity: 0.5;
-    }
-    #social:hover {
-      opacity: 1.0;
-    }
-  </style>
-
-</head>
+@include('template/headtag', ['title' => 'Drop Shop x Travis Scott'])
 <body>
-	<header>
-
-		<nav class="navbar navbar-expand-md bg-light navbar-light" role="navigation">
-      
-
-    <div class="navbar-header">
-       <a class="navbar-brand" href="{{ route('drop-shop') }}"><img src="{{ url('img/DSlogo.jpg') }}" class="img-responsive logo"></a>
-    </div>
+@include('template/navbar')
 
 
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-        <ul class="navbar-nav" id="navbarItems">
-
-            <!-- User icon button -->
-              <li>
-                  <a href="#" class=" nav-link btn btn-info btn-lg btn-light" id="User-icon">
-                  <span class="glyphicon glyphicon-user"></span> 
-                  </a>
-              </li>
-            <li class="nav-item ml-auto">
-              <a class="nav-link" href="{{ route('products') }}">PRODUCTS</a>
-            </li>
-            <li class="nav-item ml-auto">
-              <a class="nav-link" href="{{ route('calendar') }}">CALENDAR</a>
-            </li>
-            <li class="nav-item ml-auto">
-              <a class="nav-link" href="{{ route('contact') }}">CONTACT</a>
-            </li>
-        </ul>
-      </div>    
-    </nav>
-
-              <!-- LOGO BANNER -->
-
-    <div class="row text-center" id="logo-banner">
-      <div class="col">
-        <div id="logo-banner">
-          <img src="{{ url('img/nikelogo.jpg') }}" class="img-fluid" class="animation flipInX">
-        </div>
+  <!-- PRODUCTS Heading--> 
+<div class="container-fluid">
+<h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">TRAVIS SCOTT x NIKE</h1>
+<div class="row text-center" id="logo-banner">
+  <div class="col">
+      <div id="logo-banner">
+        <img src="{{ url('img/nikelogo.jpg') }}" class="img-fluid" class="animation flipInX">
+      </div>
       </div>
       <div class="col">
-        <div id="logo-banner">
-          <img src="{{ url('img/adidaslogo.jpg') }}" class="img-fluid" class="animation flipInX">
-        </div>
+      <div id="logo-banner">
+        <img src="{{ url('img/adidaslogo.jpg') }}" class="img-fluid" class="animation flipInX">
+      </div>
       </div>
       <div class="col">
-        <div id="logo-banner">
-          <img src="{{ url('img/jordanlogo.jpg') }}" class="img-fluid" class="animation flipInX">
-        </div>
+      <div id="logo-banner">
+        <img src="{{ url('img/jordanlogo.jpg') }}" class="img-fluid" class="animation flipInX">
+      </div>
       </div>
       <div class="col">
-        <div id="logo-banner">
-          <img src="{{ url('img/supremelogo.jpg') }}" class="img-fluid" class="animation flipInX">
-        </div>
+      <div id="logo-banner">
+        <img src="{{ url('img/supremelogo.jpg') }}" class="img-fluid" class="animation flipInX">
+      </div>
       </div>
       <div class="col">
-        <div id="logo-banner">
-          <img src="{{ url('img/offwhitelogo.jpg') }}" class="img-fluid"  class="animation flipInX">
-        </div>
+      <div id="logo-banner">
+        <img src="{{ url('img/offwhitelogo.jpg') }}" class="img-fluid"  class="animation flipInX">
       </div>
-    </div>
+      </div>
+</div>
+</div>
 
-              <!-- PRODUCTS NAV BAR -->
 
+<section>
+  
+  <div class="container-fluid justify-content-center">
+
+    <!-- PRODUCTS NAV BAR -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" role="navigation" id="products-navbar">
 
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#products-bar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#products-bar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+        </button>
 
-      <div class="collapse navbar-collapse justify-content-center" id="products-bar">
-        <ul class="navbar-nav" id="navbarItems-tab">
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="{{ route('travisscott') }}">TRAVIS SCOTT</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">DRAKE</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">KANYE</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">A$AP ROCKY</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">RAY ALLEN</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">KOBE BRYANT</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">KENDRICK LAMAR</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">OFF-WHITE</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">SUPREME</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse justify-content-center" id="products-bar">
+            <ul class="navbar-nav" id="navbarItems-tab">
+                  <li class="nav-item ml-auto">
+                    <a class="nav-link" href="{{ route('travisscott') }}">TRAVIS SCOTT</a>
+                  </li>
+                  <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#">DRAKE</a>
+                  </li>
+                  <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#">KANYE</a>
+                  </li>
+                  <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#">A$AP ROCKY</a>
+                  </li>
+                  <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#">KOBE BRYANT</a>
+                  </li>
+                  <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#">OFF-WHITE</a>
+                  </li>
+                  <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#">SUPREME</a>
+                  </li>
+            </ul>
       </div>
     </nav>
-	</header>
-  <section>
-    <h1 class="text-center" style="font-size: 70px;">
-      TRAVIS SCOTT x NIKE
-    </h1>
-    <div class="container-fluid justify-content-center">
 
-              <!-- FIRST ROW -->
-
-      <div class="row">
-        <div class="col-md-4 d-flex justify-content-center">
-          <!-- MODAL TRIGGER -->
-          <figure class="figure">
-            <img src="{{ url('img/MochaHigh.jpg') }}" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#mochaHighModal" class="img-fluid justify-content-center" id="size">
-            <figcaption class="figure-caption text-center p-3"data-toggle="modal" data-target="#mochaHighModal">
-              JORDAN 1 RETRO HIGH x TRAVIS SCOTT "MOCHA"
-            </figcaption>
-            <figcaption class="figure-caption text-center p-3">
-              <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#mochaHighModal">
-              Compare prices and sizes
-              </button>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <figure class="figure">
-            <img src="{{ url('img/mochaLow.jpg') }}" class="figure-img img-fluid rounded" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#mochaLowModal" id="size">
-            <figcaption class="figure-caption text-center p-3"data-toggle="modal" data-target="#mochaLowModal">JORDAN 1 RETRO LOW x TRAVIS SCOTT "MOCHA"
-            </figcaption>
-            <figcaption class="figure-caption text-center p-3">
-              <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#mochaLowModal">
-              Compare prices and sizes
-              </button>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <figure class="figure">
-            <img src="{{ url('img/ts4.jpg') }}" class="figure-img img-fluid rounded" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#ts4Modal" id="size">
-            <figcaption class="figure-caption text-center p-3"data-toggle="modal" data-target="#ts4Modal">JORDAN 4 RETRO x TRAVIS SCOTT "CACTUS JACK "
-            </figcaption>
-            <figcaption class="figure-caption text-center p-3">
-              <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#ts4Modal">
-              Compare prices and sizes
-              </button>
-            </figcaption>
-          </figure>
-        </div>
+    <!-- FIRST ROW OF SHOES -->
+    <div class="row text-center" id="products1">
+      <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/MochaHigh.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#mochaHighModal" id="size">
+        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#mochaHighModal">
+          JORDAN 1 RETRO HIGH x TRAVIS SCOTT "MOCHA"
+        </figcaption>
+        <figcaption class="figure-caption text-center p-3">
+          <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#mochaHighModal">
+          Compare prices and sizes
+          </button>
+        </figcaption>
+        </figure>
+        <p>
+        </p>
       </div>
-              <!-- SECOND ROW -->
-      <div class="row">
-        <div class="col-md-4 d-flex justify-content-center">
-          <!-- MODAL TRIGGER -->
-          <figure class="figure">
-            <img src="{{ url('img/retroOlive.jpg') }}" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#oliveModal" class="figure-img img-fluid rounded" id="size">
-            <figcaption class="figure-caption text-center p-3"data-toggle="modal" data-target="#oliveModal">
-              JORDAN 6 RETRO x TRAVIS SCOTT "OLIVE"
-            </figcaption>
-            <figcaption class="figure-caption text-center p-3">
-              <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#oliveModal">
-              Compare prices and sizes
-              </button>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <figure class="figure">
-            <img src="{{ url('img/afSail.jpg') }}" class="figure-img img-fluid rounded" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#afSailModal" id="size">
-            <figcaption class="figure-caption text-center p-3"data-toggle="modal" data-target="#afSailModal">NIKE AF1 LOW x TRAVIS SCOTT "SAIL"
-            </figcaption>
-            <figcaption class="figure-caption text-center p-3">
-              <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#afSailModal">
-              Compare prices and sizes
-              </button>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <figure class="figure">
-            <img src="{{ url('img/ts270.jpg') }}" class="figure-img img-fluid rounded" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#ts270Modal" id="size">
-            <figcaption class="figure-caption text-center p-3"data-toggle="modal" data-target="#ts270Modal">NIKE AIR MAX 270 x TRAVIS SCOTT "CACTUS TRAILS"
-            </figcaption>
-            <figcaption class="figure-caption text-center p-3">
-              <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#ts270Modal">
-              Compare prices and sizes
-              </button>
-            </figcaption>
-          </figure>
-        </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/mochaLow.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#mochaLowModal" id="size">
+        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#mochaLowModal">
+        JORDAN 1 RETRO LOW x TRAVIS SCOTT "MOCHA"
+        </figcaption>
+        <figcaption class="figure-caption text-center p-3">
+          <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#mochaLowModal">
+          Compare prices and sizes
+          </button>
+        </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/ts4c.jpg') }}" class="img-fluid z-depth-5 rounded" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#ts4Modal" id="size">
+        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#ts4Modal">JORDAN 4 RETRO x TRAVIS SCOTT "CACTUS JACK"
+        </figcaption>
+        <figcaption class="figure-caption text-center p-3">
+          <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#ts4Modal">
+          Compare prices and sizes
+          </button>
+        </figcaption>
+        </figure>
       </div>
     </div>
-  </section>
-              <!-- MOCHA HIGH MODAL -->
-  <div class="modal" id="mochaHighModal">
+
+    <!-- SECOND ROW OF SHOES -->
+    <div class="row text-center" id="products2">
+      <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/retroOlive.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#oliveModal" id="size">
+        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#oliveModal">
+        JORDAN 6 RETRO x TRAVIS SCOTT "OLIVE"
+        </figcaption>
+        <figcaption class="figure-caption text-center p-3">
+          <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#oliveModal">
+          Compare prices and sizes
+          </button>
+        </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/afSail.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#afSailModal" id="size">
+        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#afSailModal">
+        ADIDAS x YEEZY "YEEZY BOOST 350 V2 BLACK RED"
+        </figcaption>
+        <figcaption class="figure-caption text-center p-3">
+          <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#afSailModal">
+          Compare prices and sizes
+          </button>
+        </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/ts270.jpg') }}" class="img-fluid z-depth-5 rounded" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#ts270Modal" id="size">
+        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#ts270Modal">
+        NIKE AIR MAX 270 x TRAVIS SCOTT "CACTUS TRAILS"
+        </figcaption>
+        <figcaption class="figure-caption text-center p-3">
+          <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#ts270Modal">
+            Compare prices and sizes
+          </button>
+        </figcaption>
+        </figure>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+</section>
+
+              <!-- MODALS BEGIN -->
+<div class="modal" id="mochaHighModal">
     <div class="modal-dialog modal-dialog-centered modal-md">
       <div class="modal-content">
 
@@ -674,7 +598,7 @@
     </div>
   </div>
 </div>
-              <!-- OLIVE MODAL -->
+<!-- OLIVE MODAL -->
   <div class="modal" id="oliveModal">
     <div class="modal-dialog modal-dialog-centered modal-md">
       <div class="modal-content">
@@ -1097,34 +1021,54 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>	
-</body>
-<footer class="footer">
-  <div class="panel-footer" align="center">
-    <span class="text-muted" align="center" style="font-size: 14px;">&copy;Drop Shop Project 2020
-    </span><br>
-    <div class="container-fluid justify-content-center">
-      <div class="row">
-        <div class="col d-flex justify-content-center">
-          <a href="mailto:dropshop4935@gmail.com">
-            <span style="font-size:20px; color: black;" class="glyphicon glyphicon-envelope" id="social"></span>
-          </a>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <a href="https://instagram.com/dropshop4935?igshid=1ci1k571w1da5">
-          <img src="{{ url('img/gramFoot.png') }}" height="20" width="20" class="img-fluid" id="social">
-          </a>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <a href="https://twitter.com/DropShop4935">
-          <img src="{{ url('img/twtFoot.png') }}" height="20" width="20" class="img-fluid" id="social">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
 
+
+
+</body>
+<!-- Footer -->
+<footer class="page-footer">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Social buttons -->
+    <ul>
+      <li>
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 </html>

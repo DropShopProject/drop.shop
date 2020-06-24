@@ -15,4 +15,7 @@ class Product extends Model
      * @var array
      */
     protected $fillable = [];
+    public function getModalNameAttribute () {
+    	return strtolower(str_replace(' ', '', $this->productName));
+    }
 }

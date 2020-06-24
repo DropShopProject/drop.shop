@@ -18,6 +18,7 @@ Route::get('/', function () {
 })-> name("drop-shop");
 
 Route::get('products', 'ProductController@show_product_details')-> name("products");
+Route::get('products/{collab_name?}', 'ProductController@show_collab_products')-> name("products");
 
 Route::get('calendar', function () {
     return view('calendar');
@@ -30,11 +31,6 @@ Route::get('contact', function () {
 Route::get('login', function () {
     return view('login');
 })-> name("login");
-
-
-Route::get('travisscott', function () {
-    return view('travisscott');
-})-> name("travisscott");
 
 Route::get('login', 'UserController@create')->name("login");
 

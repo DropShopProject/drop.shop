@@ -159,6 +159,7 @@ h1{
 #products2{
   padding-top: 190px;
 }
+<<<<<<< Updated upstream
 .social-wrapper {
   text-align: center;
 }
@@ -183,4 +184,21 @@ h1{
   margin: 50px;
   padding: 50px;
   opacity: 1;
+}
+#size:hover {
+  border-color: black!important;
+  cursor: pointer;
+}
+figcaption:hover {
+  color: red;
+  cursor: pointer;
+}
+#logo {
+  opacity: 0.8;
+}
+#logo:hover {
+  opacity: 1.0;
+}
+h4 {
+  color: green;
 }
