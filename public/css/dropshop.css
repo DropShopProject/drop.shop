@@ -182,3 +182,20 @@ h1{
   padding-right: 60px;
   padding-left: 60px;
 }
+#size:hover {
+  border-color: black!important;
+  cursor: pointer;
+}
+figcaption:hover {
+  color: red;
+  cursor: pointer;
+}
+#logo {
+  opacity: 0.8;
+}
+#logo:hover {
+  opacity: 1.0;
+}
+h4 {
+  color: green;
+}
