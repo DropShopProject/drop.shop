@@ -65,36 +65,36 @@ $(window).on("load",function() {
   <div class="container-fluid justify-content-center">
 
     <!-- PRODUCTS NAV BAR -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" role="navigation" id="products-navbar">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" role="navigation" id="products-navbar">
 
-       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#products-bar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#products-bar" aria-controls="products-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse justify-content-center" id="products-bar">
-            <ul class="navbar-nav" id="navbarItems-tab">
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="{{ route('travisscott') }}">TRAVIS SCOTT</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">DRAKE</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">KANYE</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">A$AP ROCKY</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">KOBE BRYANT</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">OFF-WHITE</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">SUPREME</a>
-                  </li>
-            </ul>
+      <div class="collapse navbar-collapse justify-content-center" id="products-bar">
+      <ul class="navbar-nav" id="navbarItems-tab">
+        <li class="nav-item ml-auto">
+          <a class="nav-link" href="#">TRAVIS SCOTT</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link" href="#">DRAKE</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link" href="#">KANYE</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link" href="#">A$AP ROCKY</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link" href="#">KOBE BRYANT</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link" href="#">OFF-WHITE</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link" href="#">SUPREME</a>
+        </li>
+      </ul>
       </div>
     </nav>
 
