@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="em">
-@include('template/headtag', ['title' => 'DropShop Products'])
+@include('template/headtag', ['title' => 'DropShop Home'])
 
 
 <body>
