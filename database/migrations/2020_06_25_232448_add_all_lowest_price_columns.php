@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddLowestPriceColumn extends Migration
+class AddAllLowestPriceColumns extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,9 @@ class AddLowestPriceColumn extends Migration
     public function up()
     {
         Schema::table('products', function (Blueprint $table) {
-            $table->decimal('lowestPrice', 10, 2);
+            $table->decimal('lowestGoatPrice', 10, 2);
+            $table->decimal('lowestFcPrice', 10, 2);
+            $table->decimal('lowestKixPrice', 10, 2);
         });
     }
 
@@ -26,7 +28,9 @@ class AddLowestPriceColumn extends Migration
     public function down()
     {
          Schema::table('products', function (Blueprint $table) {
-            $table->dropColumn('lowestPrice');
+            $table->dropColumn('lowestGoatPrice');
+            $table->dropColumn('lowestFcPrice');
+            $table->dropColumn('lowestKixPrice');
         });
     }
 }
