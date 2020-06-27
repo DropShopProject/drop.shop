@@ -46,3 +46,6 @@ Route::get('test-view', 'FavoriteController@show_favorite_details');
 Auth::routes();
 
 Route::get('/account', 'HomeController@index')->name('account');
+
+Route::get('scraper-input', 'ScraperInputController@show');
+Route::post('scraper-input', 'ScraperInputController@add_scraper_entry');
