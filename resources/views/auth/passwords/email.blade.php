@@ -23,7 +23,7 @@
                         </span>
                     @enderror
                 
-                    <input type="submit" value="Send Password Reset Link">
+                    <input class="orange-button" type="submit" value="Send Password Reset Link">
                 
                 </form>
             </div>
