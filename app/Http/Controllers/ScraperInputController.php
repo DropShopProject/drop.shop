@@ -13,7 +13,9 @@ class ScraperInputController extends Controller
 
     public function add_scraper_entry(Request $request){
       ScraperInput::create([
-          'url' => $request['url'],
+          'goat_url' => $request['goat_url'],
+          'fc_url' => $request['fc_url'],
+          'kixify_url' => $request['kixify_url'],
           'collab_name' => $request['collab_name'],
       ]);
 
