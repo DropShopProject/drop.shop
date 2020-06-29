@@ -14,6 +14,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
+
          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
             <ul class="navbar-nav" id="navbarItems">
 
@@ -28,10 +29,15 @@
                   </li>
             
                        <!-- User icon button -->
-              <li>
-                  <a href="{{ route('login') }}" class=" nav-link btn btn-info btn-lg btn-light" id="User-icon">
-                  <span class="glyphicon glyphicon-user"></span> 
+              <li class="nav-item dropdown">
+        
+                  <a class="nav-link dropdown-toggle btn btn-lg btn-light" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>
                   </a>
+              
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <li><a class="dropdown-item" href="{{ route('login') }}">Login</a></li>
+              </ul>
+
               </li>
             </ul>
       </div>
