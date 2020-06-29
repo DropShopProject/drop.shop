@@ -227,7 +227,6 @@ p.account-p{
 
 .account-details-box{
   width: 320px;
-  height: 420px;
   background: #000;
   color: #fff;
   top: 50%;
@@ -244,6 +243,13 @@ p.account-p{
   line-height: 20px;
   color: darkgrey;
 }
+
+.account-body input[name="optIn"]{
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
 /*End of Account Page*/
 
 

@@ -52,3 +52,5 @@ Route::get('test-view', 'FavoriteController@show_favorite_details');
 Auth::routes();
 
 Route::get('/account', 'HomeController@index')->name('account');
+
+Route::post('/update-account-settings', 'HomeController@UpdateAccountSettings')->name('UpdateAccountSettings');
