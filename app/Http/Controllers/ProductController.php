@@ -17,7 +17,7 @@ class ProductController extends Controller
     }
 
     public function show_collab_products($collab_name) {
-        $shoes = Product::where('collabName', '=', $collab_name)->get();
+        $shoes = Product::where('collab_name', '=', $collab_name)->get();
   
         return view('collab_products')->with('shoes', $shoes);
     }
