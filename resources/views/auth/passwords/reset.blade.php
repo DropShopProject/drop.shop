@@ -33,5 +33,6 @@
                     <input type="submit" value="Reset Password">
                 </form>
         </div>
+    @include('template/footer')
     </body>
 </html>

@@ -52,6 +52,7 @@
                 
             </form>
         </div>
+        @include('template/footer')
     </body>
 </head>
 </html>
