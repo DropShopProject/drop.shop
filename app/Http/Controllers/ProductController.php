@@ -13,11 +13,10 @@ class ProductController extends Controller
         $travisShoes = Product::where('productName', '=', 'TRAVIS')->get();
 
         return view('products')->with('TestShoe', $TestShoe[0]);
-        //return view('travisscott')->with('travisShoes', $travisShoes[0]);
     }
 
     public function show_collab_products($collab_name) {
-        $shoes = Product::where('collabName', '=', $collab_name)->get();
+        $shoes = Product::where('collab_name', '=', $collab_name)->get();
   
         return view('collab_products')->with('shoes', $shoes);
     }

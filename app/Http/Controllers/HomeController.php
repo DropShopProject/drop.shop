@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
 
 class HomeController extends Controller
 {
@@ -24,5 +25,14 @@ class HomeController extends Controller
     public function index()
     {
         return view('account');
+    }
+
+    public function UpdateAccountSettings(Request $request)
+    {
+
+        
+        Auth::user()->update(array('EmailOptIn' => $request->optIn));
+        return redirect()->route('account');
+       
     }
 }

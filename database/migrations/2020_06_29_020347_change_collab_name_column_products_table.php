@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddShoeSizePKs extends Migration
+class ChangeCollabNameColumnProductsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class AddShoeSizePKs extends Migration
      */
     public function up()
     {
-      Schema::table('shoe_size', function (Blueprint $table) {
-        $table->primary(array('productID', 'Site_Name', 'Shoe_Size', 'in_Stock', 'Price'));
-      });
+       Schema::table('products', function (Blueprint $table) {
+            $table->renameColumn('collabName', 'collab_name');
+        });
     }
 
     /**
@@ -25,8 +25,8 @@ class AddShoeSizePKs extends Migration
      */
     public function down()
     {
-      Schema::table('shoe_size', function (Blueprint $table) {
-        $table->dropPrimary();
-      });
+         Schema::table('products', function (Blueprint $table) {
+            $table->renameColumn('collab_name', 'collabName');
+        });
     }
 }

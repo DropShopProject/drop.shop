@@ -14,8 +14,7 @@ class MailController extends Controller
     public function send(Request $request)
     {
 
-
-       $sent = User::get(['id', 'email']);
+       $sent = User::where('EmailOptIn', 1)->get(['id', 'email']);
       
        $emails = [];
        foreach($sent as $s)

@@ -15,7 +15,10 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $fillable = ['email', 'password', 'name', 'phoneNumber',
-        'updated_at'
+ 	protected $guarded = ['password'];
+
+    protected $casts = [
+      'is_admin' => 'boolean',
+      'EmailOptIn' => 'boolean',
     ];
 }

@@ -23,7 +23,23 @@
                 </form>
             </div>
 
+            
+
+            
+
+            <form action="{{ action('HomeController@UpdateAccountSettings') }}" method="POST">
+                @csrf
+            <input id='optInHidden' type='hidden' value=0 name='optIn'>
+            <input id='optIn' type='checkbox' value=1 name='optIn' @if (Auth::user()->EmailOptIn) checked @endif> Receive Email Notifications?
+            
+            <div class="logout-button" style="margin-top: 1em;">
+            <input id='update' type='submit' value="Update User Settings">
+            </div>  
+            </form>
+            
             <a href="{{ route('password.request') }}">Reset Password</a><br>
+
         </div>
     </body>
 </html>
+

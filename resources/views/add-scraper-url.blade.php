@@ -10,8 +10,18 @@
       @csrf
 
       <div class="col-md-8 offset-md-2">
-        <label for="url">URL</label><br>
-        <input type="text" name="url" placeholder="Enter URL Here" class="form-control">
+        <label for="url">GOAT URL</label><br>
+        <input type="text" name="goat_url" placeholder="Enter GOAT URL Here" class="form-control">
+      </div>
+
+      <div class="col-md-8 offset-md-2">
+        <label for="url">FlightClub URL</label><br>
+        <input type="text" name="fc_url" placeholder="Enter FlightClub URL Here" class="form-control">
+      </div>
+
+      <div class="col-md-8 offset-md-2">
+        <label for="url">Kixify URL</label><br>
+        <input type="text" name="kixify_url" placeholder="Enter Kixify URL Here" class="form-control">
       </div>
 
       <div class="col-md-8 offset-md-2">
