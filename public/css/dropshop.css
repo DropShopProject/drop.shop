@@ -199,3 +199,14 @@ figcaption:hover {
 h4 {
   color: green;
 }
+
+.julyHeader{
+  padding-top: 20px;
+  padding-bottom: -50px;
+}
+
+.augustHeader{
+  padding-top: 20px;
+  padding-bottom: -50px;
+}
+

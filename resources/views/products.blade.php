@@ -139,49 +139,12 @@ $(window).on("load",function() {
       </div>
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
-        <img src="{{ url('img/supnike.jpg') }}" class="img-fluid z-depth-5 rounded" class="img-fluid" style="width: 275px; height: 200px;">
+        <img src="{{ url('img/supnike.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
         <figcaption style="text-decoration: underline; font-size: 17px;">SUPREME x NIKE "AIR MAX 98'"</figcaption>
         </figure>
       </div>
       
     </div>
-
-
-      <!-- TEST ROW -->
-   <div class="row text-center product-left1AK" id="products1">
-      
-      <div class="col-md-4 d-flex justify-content-center">
-            <figure class="figure">
-            <img src="{{ url('img/nike97ud.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
-            <figcaption style="text-decoration: underline; font-size: 17px;">{{$TestShoe->brandName}}{{$TestShoe->productName}}</figcaption>
-            </figure>
-      </div>
-      <div class="col-md-4 d-flex justify-content-center">
-        <figure class="figure">
-        <img src="{{ url('img/jdior.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
-        <figcaption style="text-decoration: underline; font-size: 17px;">JORDAN 1 RETRO HIGH X DIOR</figcaption>
-        </figure>
-      </div>
-      <div class="col-md-4 d-flex justify-content-center">
-        <figure class="figure">
-        <img src="{{ url('img/j1unc.jpg') }}" class="img-fluid z-depth-5 rounded" class="img-fluid" style="width: 275px; height: 200px;">
-        <figcaption style="text-decoration: underline; font-size: 17px;">JORDAN 1 RETRO HIGH X OFF-WHITE "UNC"</figcaption>
-        </figure>
-      </div>
-     
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </div>
@@ -205,7 +168,8 @@ $(window).on("load",function() {
 
       duration: 3500,
       origin: 'left',
-      distance:'300px'
+      distance:'300px',
+      viewFactor: 0.3
 
 
   });
@@ -214,7 +178,7 @@ $(window).on("load",function() {
       duration: 3500,
       origin: 'right',
       distance: '300px',
-      viewFactor: 0.4
+      viewFactor: 0.3
 
 
   });
