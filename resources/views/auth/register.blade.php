@@ -2,9 +2,9 @@
 <html>
 @include('template/headtag', ['title' => 'DropShop Login'])
 
-    <body class="login-body">
+    <body id="login-body">
         @include('template/navbar')
-        <div class="registerbox">
+        <div id="registerbox">
             <img src="/img/DSlogo3.jpg" class="login-logo">
                 <h1 class="login-h1">Register</h1>
                 <form method="POST" action="{{ route('register') }}">
@@ -49,6 +49,8 @@
                     <input type="submit" value="Register">
                 </form>
             </div>
-        </body>
-    </head>
-    </html>
+
+@include('template/footer')
+
+    </body>
+</html>

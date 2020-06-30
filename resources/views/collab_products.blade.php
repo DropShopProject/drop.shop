@@ -7,7 +7,7 @@
 
   <!-- PRODUCTS Heading-->
 <div class="container-fluid">
-<h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">TRAVIS SCOTT x NIKE</h1>
+<h1 class="img-responsive text-uppercase" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">{{$shoes[0]->collab_name}} x {{$shoes[0]->brandName}}</h1>
 <div class="row text-center" id="logo-banner">
   <div class="col">
       <div id="logo-banner">
@@ -83,7 +83,7 @@
         <figure class="figure">
         <img src="{{ url($shoe->imgFilePath) }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#{{$shoe->modalName}}" id="size">
         <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#{{$shoe->modalName}}">
-          {{$shoe->productName}} X {{$shoe->collabName}}
+          {{$shoe->productName}} X {{$shoe->collab_name}}
         </figcaption>
         <figcaption class="figure-caption text-center p-3">
           <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#{{$shoe->modalName}}">

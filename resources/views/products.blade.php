@@ -54,7 +54,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="products-bar">
       <ul class="navbar-nav" id="navbarItems-tab">
         <li class="nav-item ml-auto">
-          <a class="nav-link" href="#">TRAVIS SCOTT</a>
+          <a class="nav-link" href="{{ route('products', ['collab_name' => 'travis-scott']) }}">TRAVIS SCOTT</a>
         </li>
         <li class="nav-item ml-auto">
           <a class="nav-link" href="#">DRAKE</a>
