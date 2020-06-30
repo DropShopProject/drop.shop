@@ -10,3 +10,7 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+resources/views/auth/register.blade_BACKUP_1073.php
+resources/views/auth/register.blade_BASE_1073.php
+resources/views/auth/register.blade_LOCAL_1073.php
+resources/views/auth/register.blade_REMOTE_1073.php

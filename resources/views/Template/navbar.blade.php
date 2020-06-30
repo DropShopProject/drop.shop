@@ -34,10 +34,25 @@
                   <a class="nav-link dropdown-toggle btn btn-lg btn-light" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>
                   </a>
               
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              
+              
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                @if (Auth::check())
+                  <li><a class="dropdown-item" href="{{ route('account') }}">My Account</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="document.getElementById('logout-form').submit();">Logout</a>
+                    @csrf</li>
+                @else
                   <li><a class="dropdown-item" href="{{ route('login') }}">Login</a></li>
-              </ul>
+                  <li><a class="dropdown-item" href="{{ route('register') }}">Register</a></li>
+                @endif
+                </ul>
 
+                <!-- Logout Form needed for logout to work in dropdown -->
+                <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                    @csrf
+                </form>
+
+                
               </li>
             </ul>
       </div>

@@ -30,8 +30,9 @@
                     <p class='login-p'>Confirm Password</p>
                     <input id="password-confirm" type="password" class="form-control" placeholder="Confirm New Password" name="password_confirmation" required autocomplete="new-password">
 
-                    <input type="submit" value="Reset Password">
+                    <input class="orange-button" type="submit" value="Reset Password">
                 </form>
         </div>
+    @include('template/footer')
     </body>
 </html>

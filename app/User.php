@@ -15,7 +15,7 @@ class User extends Authenticatable
      *
      * @var array
      */
- 	protected $guarded = ['password'];
+ 	protected $guarded = ['id'];
 
     protected $casts = [
       'is_admin' => 'boolean',

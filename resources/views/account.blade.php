@@ -4,6 +4,7 @@
     
     <body class="account-body">
         @include('template/navbar')
+
         <div class="account-details-box">
             <img src="/img/DSlogo3.jpg" class="login-logo">
             <h1 class="account-h1">Welcome {{ Auth::user()->name }}</h1>
@@ -19,7 +20,7 @@
             <div class="logout-button">
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" >
                     @csrf
-                    <input type="submit" value="Logout">
+                    
                 </form>
             </div>
 
@@ -40,6 +41,8 @@
             <a href="{{ route('password.request') }}">Reset Password</a><br>
 
         </div>
+        @include('template/footer')
     </body>
+
 </html>
 
