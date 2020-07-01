@@ -42,7 +42,7 @@
 
 <section>
   
-  <div class="container-fluid justify-content-center">
+  <div class="container-fluid justify-content-center" id="container">
 
     <!-- PRODUCTS NAV BAR -->
     <nav class="navbar navbar-expand-md navbar-light sticky-top" role="navigation" id="products-navbar">

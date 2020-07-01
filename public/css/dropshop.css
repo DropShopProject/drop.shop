@@ -1,5 +1,5 @@
 #container {
-  width: 50vw;
+  width: 75vw;
 }
 #ig1 {
   width: 33%!important;
@@ -173,10 +173,12 @@ body {
 #products1{
    padding-top: 90px;
   padding-bottom: 80px;
+  box-shadow: 4px 4px 5px #000000;
 }
 #products2{
    padding-top: 90px;
   padding-bottom: 80px;
+  box-shadow: 4px 4px 5px #000000;
 }
 #products-navbar{
   background-color:  #e5d5b4;
@@ -229,9 +231,9 @@ h4 {
   padding-top: 20px;
   padding-bottom: -50px;
 }
-#shoe-image{
+/*#shoe-image{
 box-shadow: 3px 3px 4px #000000;
-}
+}*/
 #logo-banner{
   padding-top: 30px;
 }
