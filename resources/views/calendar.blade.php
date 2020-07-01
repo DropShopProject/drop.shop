@@ -7,7 +7,7 @@
 
   <!-- CALENDAR Heading--> 
 <div class="container-fluid">
-<h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">CALENDAR</h1>
+<!-- <h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">CALENDAR</h1> -->
 <div class="row text-center" id="logo-banner">
   <div class="col">
       <div id="logo-banner">
@@ -26,7 +26,7 @@
       </div>
       <div class="col">
       <div id="logo-banner">
-        <img src="{{ url('img/supremelogo.jpg') }}" class="img-fluid" class="animation flipInX">
+        <img src="{{ url('img/CJ.jpg') }}" class="img-fluid" class="animation flipInX">
       </div>
       </div>
       <div class="col">
@@ -86,14 +86,15 @@
 
 
   <!-- JULY SHOES -->
-    <h2 class="img-responsive" class="julyHeader" style="color: black; text-align: center; font-size: 40px;">JULY<h2>
+    <h2 class="img-responsive" class="julyHeader" style="color: black; text-align: center; font-size: 40px; padding-bottom: 30px;">JULY<h2>
 
     <div class="row text-center product-leftAK" id="products1" id="july">
 
 
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
-          <img src="{{ url('img/offwhite-rubberduck.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
+          <img src="{{ url('img/offwhite-rubberduck.jpg') }}"  id="shoe-image"
+          class="img-fluid" style="width: 275px; height: 200px;">
           <figcaption style="text-decoration: underline; font-size: 17px;">OFF-WHITE x NIKE AIR RUBBER DUNK (UNIVERSITY GOLD)</figcaption>
           <figcaption style="text-decoration: underline; font-size: 17px;">$189 - JULY 1ST</figcaption>
         </figure>
@@ -101,7 +102,8 @@
 
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
-          <img src="{{ url('img/NIKEALPHA.jpg') }}" class="img-fluid" style="width: 275px; height: 200px;">
+          <img src="{{ url('img/NIKEALPHA.jpg') }}"
+          id="shoe-image" class="img-fluid" style="width: 275px; height: 200px;">
           <figcaption style="text-decoration: underline; font-size: 17px;">NIKE AIR ZOOM ALPHAYFLY NEXT% "WATERMELON"</figcaption>
           <figcaption style="text-decoration: underline; font-size: 17px;">$250 - JULY 2ND</figcaption>
         </figure>
@@ -205,7 +207,7 @@
     </div>
 
     <!-- FIRST ROW AUGUST -->
-    <h2 class="img-responsive" class="augustHeader" style="color: black; text-align: center; font-size: 40px;">AUGUST<h2>
+    <h2 class="img-responsive" class="augustHeader" style="color: black; text-align: center; font-size: 40px; padding-bottom: 30px;">AUGUST<h2>
 
     <div class="row text-center product-leftAK" id="products1" id="august">
 
@@ -290,7 +292,7 @@
       duration: 2500,
       origin: 'right',
       distance: '300px',
-      viewFactor: 0.3
+      viewFactor: 0.4
 
 
   });
@@ -299,7 +301,7 @@
       duration: 2500,
       origin: 'top',
       distance: '300px',
-      viewFactor: 0.3
+      viewFactor: 0.4
 
 
   });

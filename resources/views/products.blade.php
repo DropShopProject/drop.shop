@@ -28,7 +28,7 @@
       </div>
       <div class="col">
       <div id="logo-banner">
-        <img src="{{ url('img/supremelogo.jpg') }}" class="img-fluid" class="animation flipInX">
+        <img src="{{ url('img/CJ.jpg') }}" class="img-fluid" class="animation flipInX">
       </div>
       </div>
       <div class="col">

@@ -25,7 +25,8 @@
     left: 50%; 
     transform: translatex(-50%);
    /* font-family: Poppins;*/
-    font-family: nimbus-sans, sans-serif; 
+    font-family: nimbus-sans, sans-serif;
+    background-color:  #e5d5b4; 
 } 
 
 #navbarItems > li {
@@ -44,7 +45,9 @@
 	padding-bottom: 9px;
 
 }
-
+.glyphicon glyphicon-user{
+  background-color:  #e5d5b4;
+}
 .nav-item > li {
 	/*font-size: 2.4em !important;*/
 }
@@ -135,10 +138,12 @@ p{
 	text-align: center;
 	padding-top: 80px;
 	font-family: nimbus-sans, sans-serif;
+  color: #e9782f;
 }
 
 h1{
 	padding-top: 50px;
+  color: #e9782f;
 }
 
 body {
@@ -164,11 +169,17 @@ body {
   display: block;
 }
 #products1{
-  padding-top: 190px;
+   padding-top: 90px;
+  padding-bottom: 80px;
 }
 #products2{
-  padding-top: 190px;
+   padding-top: 90px;
+  padding-bottom: 80px;
 }
+#products-navbar{
+  background-color:  #e5d5b4;
+}
+
 .social-wrapper {
   text-align: center;
 }
@@ -216,4 +227,6 @@ h4 {
   padding-top: 20px;
   padding-bottom: -50px;
 }
-
+#shoe-image{
+box-shadow: 3px 3px 4px #000000;
+}
