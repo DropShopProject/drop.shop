@@ -141,6 +141,9 @@ h1{
 	padding-top: 50px;
 }
 
+body {
+  padding-bottom:120px;
+}
 
 #logo-banner{
   padding-top: 20px;
