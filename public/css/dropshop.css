@@ -13,6 +13,9 @@
 	font-size: 1.45em;
  
 }
+.navbar{
+background-color:  #e5d5b4;
+}
 
 .logo{
 	height: 120px;
@@ -25,8 +28,7 @@
     left: 50%; 
     transform: translatex(-50%);
    /* font-family: Poppins;*/
-    font-family: nimbus-sans, sans-serif;
-    background-color:  #e5d5b4; 
+    font-family: nimbus-sans, sans-serif; 
 } 
 
 #navbarItems > li {

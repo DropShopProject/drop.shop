@@ -2,11 +2,11 @@
 	<header>
 
 		<!-- NAV BAR -->
-		<nav class="navbar navbar-expand-md bg-light navbar-light" role="navigation">
+		<nav class="navbar navbar-expand-md navbar-light" role="navigation">
 
 
         <div class="navbar-header">
-             <a class="navbar-brand" href="{{ route('drop-shop') }}"><img src="{{ url('img/DSlogo.jpg') }}" class="img-responsive logo"></a>
+             <a class="navbar-brand" href="{{ route('drop-shop') }}"><img src="{{ url('img/DSlogoNOCREAM.jpg') }}" class="img-responsive logo"></a>
         </div>
 
 
@@ -31,7 +31,7 @@
                        <!-- User icon button -->
               <li class="nav-item dropdown">
         
-                  <a class="nav-link dropdown-toggle btn btn-lg btn-light" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>
+                  <a class="nav-link dropdown-toggle btn btn-lg" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>
                   </a>
               
               

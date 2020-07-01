@@ -9,7 +9,7 @@
 
   <!-- PRODUCTS Heading--> 
 <div class="container-fluid">
-<h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">PRODUCTS</h1>
+<!-- <h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">PRODUCTS</h1> -->
 <div class="row text-center" id="logo-banner">
   <div class="col">
       <div id="logo-banner">
@@ -28,12 +28,12 @@
       </div>
       <div class="col">
       <div id="logo-banner">
-        <img src="{{ url('img/CJ.jpg') }}" class="img-fluid" class="animation flipInX">
+        <img src="{{ url('img/offwhitelogo.jpg') }}" class="img-fluid"  class="animation flipInX">
       </div>
       </div>
       <div class="col">
       <div id="logo-banner">
-        <img src="{{ url('img/offwhitelogo.jpg') }}" class="img-fluid"  class="animation flipInX">
+        <img src="{{ url('img/CJ.jpg') }}" class="img-fluid" class="animation flipInX">
       </div>
       </div>
 </div>
@@ -45,7 +45,7 @@
   <div class="container-fluid justify-content-center">
 
     <!-- PRODUCTS NAV BAR -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" role="navigation" id="products-navbar">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" role="navigation" id="products-navbar">
 
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#products-bar" aria-controls="products-navbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
