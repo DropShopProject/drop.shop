@@ -39,15 +39,9 @@ Route::get('login', function () {
 })-> name("login");
 
 Route::get('login', 'UserController@create')->name("login");
-
 Route::post('login', 'UserController@store');
 
-Route::get('view-account', 'UserController@show_account_page');
-
 Route::get('send-mail', 'MailController@send');
-
-Route::get('test-view', 'FavoriteController@show_favorite_details');
-
 
 Auth::routes();
 
