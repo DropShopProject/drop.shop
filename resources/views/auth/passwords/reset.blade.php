@@ -2,7 +2,7 @@
 @include('template/headtag', ['title' => 'DropShop Password Reset'])
     <body class="login-body">
         @include('template/navbar')
-        <div class="loginbox">
+        <div class="registerbox">
             <img src="/img/DSlogo3.jpg" class="login-logo">
                 <h1 class="login-h1">Reset Password</h1>
 

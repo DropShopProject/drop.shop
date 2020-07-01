@@ -1,12 +1,13 @@
 <!--<!DOCTYPE HTML> -->
 <html>
-@include('template/headtag', ['title' => 'DropShop Login'])
+@include('template/headtag', ['title' => 'DropShop Register'])
 
-    <body id="login-body">
+    <body class="login-body">
         @include('template/navbar')
-        <div id="registerbox">
-            <img src="/img/DSlogo3.jpg" class="login-logo">
-                <h1 class="login-h1">Register</h1>
+        <div class="registerbox">
+            <img src="/img/DSlogoNOBORDER.jpg" class="login-logo">
+                <h1 class="login-h1">Welcome to</h1>
+                <h1 class="login-h1">DropShop</h1>
                 <form method="POST" action="{{ route('register') }}">
                     @csrf
 
@@ -46,7 +47,7 @@
                     @enderror
 
                     <!--Login Button-->
-                    <input type="submit" value="Register">
+                    <input class="orange-button"type="submit" value="Register">
                 </form>
             </div>
 
