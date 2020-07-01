@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePasswordResetTable extends Migration
+class CreateScraperInputTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class CreatePasswordResetTable extends Migration
      */
     public function up()
     {
-        Schema::create('password_reset', function (Blueprint $table) {
+        Schema::create('scraper_input', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('userID');
-            $table->bigInteger('resetCode');
-            $table->dateTime('codeExpiration');
-            $table->foreign('userID')->references('id')->on('users');
+            $table->string('goat_url')->unique();
+            $table->string('fc_url')->unique();
+            $table->string('kixify_url')->unique();
+            $table->string('collab_name');
             $table->timestamps();
         });
     }
@@ -30,6 +30,6 @@ class CreatePasswordResetTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('password_reset');
+        Schema::dropIfExists('scraper_input');
     }
 }

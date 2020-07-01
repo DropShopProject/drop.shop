@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class DropImgFilePathColumn extends Migration
+class CreatePasswordResetTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class DropImgFilePathColumn extends Migration
      */
     public function up()
     {
-        
-        
-        Schema::table('products', function (Blueprint $table) {
-            $table->dropColumn('imgFilePath');
+        Schema::create('password_reset', function (Blueprint $table) {
+            $table->string('email');
+            $table->string('token');
+            $table->timestamps();
         });
     }
 
@@ -27,6 +27,6 @@ class DropImgFilePathColumn extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('password_reset');
     }
 }
