@@ -6,10 +6,19 @@
 @include('template/navbar')
 
   <!-- CALENDAR Heading--> 
-<div class="container-fluid">
-<!-- <h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">CALENDAR</h1> -->
-<div class="row text-center" id="logo-banner">
+<div class="container-fluid text-center">
+
+<div class="dsbanner text-center">
+  <img src="{{ url('img/dropshopbanner.jpg') }}" class="img-fluid">
+</div>
+
+<div class="row text-center">
   <div class="col">
+  <img src="{{ url('img/logobanner.jpg') }}" id="logo-banner" class="img-fluid">
+  </div>
+</div>
+</div>
+  <!-- <div class="col">
       <div id="logo-banner">
         <img src="{{ url('img/nikelogo.jpg') }}" class="img-fluid" class="animation flipInX">
       </div>
@@ -34,8 +43,7 @@
         <img src="{{ url('img/offwhitelogo.jpg') }}" class="img-fluid"  class="animation flipInX">
       </div>
       </div>
-</div>
-</div>
+</div> -->
 
 <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
