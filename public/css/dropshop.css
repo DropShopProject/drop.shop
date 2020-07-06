@@ -165,8 +165,13 @@ h1{
  
 }*/
 
-.footer{
-  padding-top:  120px;
+.panel-footer{
+  background-color:  #e5d5b4;
+  display: block;
+  width: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 #Prod-header{
   text-align: center;
@@ -175,6 +180,15 @@ h1{
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.5em;
+}
+#calendarItems-tab > li{
+  padding-left: 150px;
+  padding-right: 100px;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+
 }
 .caption{
   display: block;
@@ -259,3 +273,8 @@ box-shadow: 3px 3px 4px #000000;
   padding-top: 30px;
 
 }
+
+#ds-banner{
+  padding-top: 50px;
+}
+

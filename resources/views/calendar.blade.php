@@ -9,7 +9,7 @@
 <div class="container-fluid text-center">
 
 <div class="dsbanner text-center">
-  <img src="{{ url('img/dropshopbanner.jpg') }}" class="img-fluid">
+  <img src="{{ url('img/dropshopbanner.jpg') }}" id="ds-banner" class="img-fluid">
 </div>
 
 <div class="row text-center">
@@ -78,7 +78,7 @@
       </button>
 
       <div class="collapse navbar-collapse justify-content-center" id="products-bar">
-      <ul class="navbar-nav" id="navbarItems-tab">
+      <ul class="navbar-nav" id="calendarItems-tab">
         <li>
           <a class="nav-link" href="#july">JULY</a>
         </li>
@@ -100,6 +100,7 @@
 
 
       <div class="col-md-4 d-flex justify-content-center">
+  
         <figure class="figure">
           <img src="{{ url('img/offwhite-rubberduck.jpg') }}"
           class="img-fluid" style="width: 200px; height: 125px;">
@@ -365,7 +366,7 @@
 
 </script>
 </body>
-
+@include('template/footer')
 
 
 

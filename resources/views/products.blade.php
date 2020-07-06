@@ -8,35 +8,20 @@
 
 
   <!-- PRODUCTS Heading--> 
-<div class="container-fluid">
+<div class="container-fluid text-center">
 <!-- <h1 class="img-responsive" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">PRODUCTS</h1> -->
-<div class="row text-center" id="logo-banner">
-  <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/nikelogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/adidaslogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/jordanlogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/offwhitelogo.jpg') }}" class="img-fluid"  class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/CJ.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
+
+
+<div class="dsbanner text-center">
+  <img src="{{ url('img/dropshopbanner.jpg') }}" id="ds-banner" class="img-fluid">
 </div>
+
+<div class="row text-center">
+  <div class="col">
+  <img src="{{ url('img/logobanner.jpg') }}" id="logo-banner" class="img-fluid">
+  </div>
+</div>
+
 </div>
 
 
