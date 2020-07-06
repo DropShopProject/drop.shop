@@ -22,7 +22,7 @@ class ProductController extends Controller
     
     public function show_random_products() {
     	$shoes = Product::inRandomOrder()->take(9)->get();
-    	return view('collab_products')->with('shoes', $shoes);
+    	return view('products')->with('shoes', $shoes);
     }
 }
  
