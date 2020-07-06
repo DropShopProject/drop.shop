@@ -1,3 +1,14 @@
+
+body {
+  padding-bottom: 200px;
+  /*background-image: url(../img/ShatteredBackboard1s.jpg);
+ 
+
+  background-size: contain;*/
+
+}
+
+
 #container {
   width: 75vw;
 }
@@ -145,13 +156,11 @@ h1{
   color: #e9782f;
 }
 
-body {
-  padding-bottom:120px;
-}
-
-#logo-banner{
-  padding-top: 20px;
-}
+/*#logo-banner{
+  width: 1000px;
+  height: 200px;
+ 
+}*/
 
 .footer{
   padding-top:  120px;
@@ -171,11 +180,13 @@ body {
    padding-top: 90px;
   padding-bottom: 80px;
   box-shadow: 4px 4px 5px #000000;
+  background-color: #ffffff !important;
 }
 #products2{
    padding-top: 90px;
   padding-bottom: 80px;
   box-shadow: 4px 4px 5px #000000;
+  background-color: #ffffff !important;
 }
 #products-navbar{
   background-color:  #e5d5b4;
@@ -221,16 +232,27 @@ h4 {
 
 .julyHeader{
   padding-top: 20px;
-  padding-bottom: -50px;
+  padding-bottom: -70px;
+ 
 }
 
 .augustHeader{
   padding-top: 20px;
-  padding-bottom: -50px;
+  padding-bottom: -70px;
+
 }
+
+.septemberHeader{
+  padding-top: 90px;
+  color: #e5d5b4;
+
+}
+
+
 /*#shoe-image{
 box-shadow: 3px 3px 4px #000000;
 }*/
 #logo-banner{
   padding-top: 30px;
+
 }
