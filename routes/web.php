@@ -21,9 +21,10 @@ Route::get('/', function () {
 Route::group(['middleware' => 'admin'], function () {
   Route::get('scraper-input', 'ScraperInputController@show');
   Route::post('scraper-input', 'ScraperInputController@add_scraper_entry');
+  Route::get('send-mail', 'MailController@send');
 });
 
-Route::get('products', 'ProductController@show_product_details')-> name("products");
+Route::get('products', 'ProductController@show_random_products')-> name("products");
 Route::get('products/{collab_name?}', 'ProductController@show_collab_products')-> name("products");
 
 Route::get('calendar', function () {
@@ -40,8 +41,6 @@ Route::get('login', function () {
 
 Route::get('login', 'UserController@create')->name("login");
 Route::post('login', 'UserController@store');
-
-Route::get('send-mail', 'MailController@send');
 
 Auth::routes();
 

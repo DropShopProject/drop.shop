@@ -17,9 +17,12 @@ class ProductController extends Controller
 
     public function show_collab_products($collab_name) {
         $shoes = Product::where('collab_name', '=', $collab_name)->get();
-  
         return view('collab_products')->with('shoes', $shoes);
     }
-
+    
+    public function show_random_products() {
+    	$shoes = Product::inRandomOrder()->take(9)->get();
+    	return view('collab_products')->with('shoes', $shoes);
+    }
 }
  
