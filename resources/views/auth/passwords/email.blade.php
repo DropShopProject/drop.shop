@@ -1,9 +1,9 @@
 <html>
 @include('template/headtag', ['title' => 'DropShop Login'])
-    <body class="password-reset-body">
+    <body class="account-body">
         @include('template/navbar')
-        <div class="registerbox">
-            <img src="/img/DSlogo3.jpg" class="login-logo">
+        <div class="account-box">
+            <img src="/img/DSlogoNOBORDER.jpg" class="account-logo">
                 <h1 class="account-h1">Reset Password</h1>
 
                 @if (session('status'))

@@ -313,7 +313,6 @@
 </div>
 
 </section>
-@include('template/footer')
 
 
 <script>
