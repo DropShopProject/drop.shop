@@ -40,7 +40,7 @@
 
 <section>
   
-  <div class="container-fluid justify-content-center">
+  <div class="container-fluid justify-content-center" id="container">
 
     <!-- PRODUCTS NAV BAR -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" role="navigation" id="products-navbar">
@@ -51,26 +51,49 @@
 
         <div class="collapse navbar-collapse justify-content-center" id="products-bar">
             <ul class="navbar-nav" id="navbarItems-tab">
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">TRAVIS SCOTT</a>
+                  <li class="nav-item ml-auto dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="athleteDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ATHLETES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="athleteDrop">
+                      <a class="dropdown-item" href="#">KOBE BRYANT</a>
+                      <a class="dropdown-item" href="#">RAY ALLEN
+                      </a>
+                    </div>
                   </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">DRAKE</a>
+                  <li class="nav-item ml-auto dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="celebDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CELEBRITIES
+                    </a>
+                    <div class="dropdown-menu justify-content-center" aria-labelledby="celebDrop">
+                      <a class="dropdown-item" href="#">TRAVIS SCOTT
+                      </a>
+                      <a class="dropdown-item" href="#">A$AP ROCKY
+                      </a>
+                      <a class="dropdown-item" href="#">YEEZY
+                      </a>
+                      <a class="dropdown-item" href="#">RIHANNA
+                      </a>
+                      <a class="dropdown-item" href="#">PHARRELL
+                      </a>
+                      <a class="dropdown-item" href="#">DRAKE
+                      </a>
+                      <a class="dropdown-item" href="#">KENDRICK LAMAR
+                      </a>
+                    </div>
                   </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">KANYE</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">A$AP ROCKY</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">KOBE BRYANT</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">OFF-WHITE</a>
-                  </li>
-                  <li class="nav-item ml-auto">
-                    <a class="nav-link" href="#">SUPREME</a>
+                  <li class="nav-item ml-auto dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="designDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DESIGNERS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="designDrop">
+                      <a class="dropdown-item" href="#">ALEXANDER WANG
+                      </a>
+                      <a class="dropdown-item" href="#">JUST DON
+                      </a>
+                      <a class="dropdown-item" href="#">FEAR OF GOD</a>
+                      <a class="dropdown-item" href="#">OFF-WHITE
+                      </a>
+                      <a class="dropdown-item" href="#">SUPREME
+                      </a>
+                    </div>
                   </li>
             </ul>
       </div>
