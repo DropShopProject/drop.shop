@@ -11,13 +11,16 @@
             <h2 class="account-h2">Account Details</h2>
             <p class="account-p">Name: {{ Auth::user()->name }}
                 <br>
-                <br>
+                
                 Email: {{ Auth::user()->email }}</p> 
 
             <form action="{{ action('HomeController@UpdateAccountSettings') }}" method="POST">
                 @csrf
-            <input id='optInHidden' type='hidden' value=0 name='optIn'>
-            <input id='optIn' type='checkbox' value=1 name='optIn' @if (Auth::user()->emailOptIn) checked @endif> Receive Email Notifications?
+            
+            <label for="optIn">
+                <input id='optInHidden' type='hidden' value=0 name='optIn'>
+                <input id='optIn' type='checkbox' value=1 name='optIn' @if (Auth::user()->emailOptIn) checked @endif> Receive Email Notifications?
+            </label>
             
 
             <input id='update' class="orange-button" type='submit' value="Update User Settings"> 
