@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="em">
-@include('template/headtag', ['title' => 'Drop Shop x Travis Scott'])
+@include('template/headtag', ['title' => 'Drop Shop x Collab'])
 <body>
 @include('template/navbar')
 
 
   <!-- PRODUCTS Heading-->
 <div class="container-fluid">
-<h1 class="img-responsive text-uppercase" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">{{$shoes[0]->collab_name}} x {{$shoes[0]->brandName}}</h1>
+<h1 class="img-responsive text-uppercase" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">
+  {{$shoes[0]->collab_name}} <span class="text-lowercase">x</span> {{$shoes[0]->brandName}}
+</h1>
 <div class="row text-center" id="logo-banner">
   <div class="col">
       <div id="logo-banner">
@@ -43,7 +45,7 @@
   <div class="container-fluid justify-content-center" id="container">
 
     <!-- PRODUCTS NAV BAR -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" role="navigation" id="products-navbar">
+    <nav class="navbar navbar-expand-sm sticky-top" role="navigation" id="products-navbar">
 
        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#products-bar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,11 +54,11 @@
         <div class="collapse navbar-collapse justify-content-center" id="products-bar">
             <ul class="navbar-nav" id="navbarItems-tab">
                   <li class="nav-item ml-auto dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="athleteDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ATHLETES
+                    <a class="nav-link dropdown-toggle mr-auto" href="#" id="athleteDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ATHLETES
                     </a>
                     <div class="dropdown-menu" aria-labelledby="athleteDrop">
-                      <a class="dropdown-item" href="#">KOBE BRYANT</a>
-                      <a class="dropdown-item" href="#">RAY ALLEN
+                      <a class="dropdown-item mx-auto" href="{{ route('products', ['collab_name' => 'kobe']) }}">KOBE BRYANT</a>
+                      <a class="dropdown-item mx-auto" href="{{ route('products', ['collab_name' => 'ray-allen']) }}">RAY ALLEN
                       </a>
                     </div>
                   </li>
@@ -64,19 +66,19 @@
                     <a class="nav-link dropdown-toggle" href="#" id="celebDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CELEBRITIES
                     </a>
                     <div class="dropdown-menu justify-content-center" aria-labelledby="celebDrop">
-                      <a class="dropdown-item" href="#">TRAVIS SCOTT
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'travis-scott']) }}">TRAVIS SCOTT
                       </a>
-                      <a class="dropdown-item" href="#">A$AP ROCKY
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'asap-rocky']) }}">A$AP ROCKY
                       </a>
-                      <a class="dropdown-item" href="#">YEEZY
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'yeezy']) }}">YEEZY
                       </a>
-                      <a class="dropdown-item" href="#">RIHANNA
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'rihanna']) }}">RIHANNA
                       </a>
-                      <a class="dropdown-item" href="#">PHARRELL
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'pharrell']) }}">PHARRELL
                       </a>
-                      <a class="dropdown-item" href="#">DRAKE
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'drake']) }}">DRAKE
                       </a>
-                      <a class="dropdown-item" href="#">KENDRICK LAMAR
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'kendrick-lamar']) }}">KENDRICK LAMAR
                       </a>
                     </div>
                   </li>
@@ -84,14 +86,14 @@
                     <a class="nav-link dropdown-toggle" href="#" id="designDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DESIGNERS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="designDrop">
-                      <a class="dropdown-item" href="#">ALEXANDER WANG
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'alex-wang']) }}">ALEXANDER WANG
                       </a>
-                      <a class="dropdown-item" href="#">JUST DON
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'just-don']) }}">JUST DON
                       </a>
-                      <a class="dropdown-item" href="#">FEAR OF GOD</a>
-                      <a class="dropdown-item" href="#">OFF-WHITE
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'fear-of-god']) }}">FEAR OF GOD</a>
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'off-white']) }}">OFF-WHITE
                       </a>
-                      <a class="dropdown-item" href="#">SUPREME
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'supreme']) }}">SUPREME
                       </a>
                     </div>
                   </li>
@@ -109,7 +111,7 @@
           {{$shoe->productName}} X {{$shoe->collab_name}}
         </figcaption>
         <figcaption class="figure-caption text-center p-3">
-          <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#{{$shoe->modalName}}">
+          <button type="button" id="cmpBtn" class="btn btn-light" data-toggle="modal" data-target="#{{$shoe->modalName}}">
           Compare prices and sizes
           </button>
         </figcaption>
@@ -136,16 +138,16 @@
       <div class="modal-body">
         <div class="container">
           <h3 class="p-3 text-center">FlightClub Prices Starting At:</h3>
-          <a href="https://www.flightclub.com/air-jordan-1-high-og-ts-sp-sail-black-dark-mocha-806920" target="_blank">
-          <h4 class="text-center">&dollar;1300</h4>
-          </a>
-          <h3 class="p-3 text-center">StockX Prices Starting At:</h3>
-          <a href="https://stockx.com/air-jordan-1-retro-high-travis-scott" target="_blank">
-          <h4 class="text-center">&dollar;1090</h4>
+          <a href="{{ $shoe->scraper_links->fc_url }}" target="_blank">
+          <h4 class="text-center">&dollar;{{$shoe->lowestFcPrice}}</h4>
           </a>
           <h3 class="p-3 text-center">Goat Prices Starting At:</h3>
-          <a href="https://www.goat.com/sneakers/travis-scott-x-air-jordan-1-retro-high-og-cd4487-100" target="_blank">
-          <h4 class="text-center">&dollar;1090</h4>
+          <a href="{{ $shoe->scraper_links->goat_url }}" target="_blank">
+          <h4 class="text-center">&dollar;{{$shoe->lowestGoatPrice}}</h4>
+          </a>
+          <h3 class="p-3 text-center">Kixify Prices Starting At:</h3>
+          <a href="{{ $shoe->scraper_links->kixify_url }}" target="_blank">
+          <h4 class="text-center">&dollar;{{$shoe->lowestKixPrice}}</h4>
           </a>
         </div>
       </div>

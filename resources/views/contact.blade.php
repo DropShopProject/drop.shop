@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="em">
-@include('template/headtag', ['title' => 'DropShop Products'])
+@include('template/headtag', ['title' => 'DropShop Socials'])
 
 <body>
 
 @include('template/navbar')
 
-    <h1 class="text-center" style="font-size: 60px; padding-bottom: 50px;">CONTACT</h1>
+    <h1 class="text-center" style="font-size: 60px; padding-bottom: 50px; color: black;">CONTACT</h1>
     <div class="container-fluid justify-content-center" id="container">
       <div class="row text-center">
         <div class="col text-center">

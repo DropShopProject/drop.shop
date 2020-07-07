@@ -1,6 +1,47 @@
 #container {
   width: 75vw;
 }
+
+.dropdown-menu {
+  color: white;
+  background-color: black;
+}
+.dropdown-item {
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.2em;
+}
+
+#cmpBtn {
+  background-color: #e5d5b4;
+  color: black;
+}
+
+#products-navbar{
+  background-color:  #e5d5b4;
+  color: black!important;
+}
+
+#products-bar > ul > li > a {
+  color: black!important;
+  font-size: 20px;
+}
+
+#navbarItems-tab > li{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.5em;
+}
+
+a:visited {
+  color: white;
+}
+
+h4:hover {
+  text-decoration: underline;
+}
+
 .navbar-brand{
 	margin: 0;
 	padding: 0; 

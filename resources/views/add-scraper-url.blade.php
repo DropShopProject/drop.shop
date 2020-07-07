@@ -32,6 +32,7 @@
           <option value="yeezy">YEEZY</option>
           <option value="asap-rocky">A$AP ROCKY</option>
           <option value="kobe">KOBE BRYANT</option>
+          <option value="ray-allen">RAY ALLEN</option>
           <option value="off-white">OFF-WHITE</option>
           <option value="supreme">SUPREME</option>
           <option value="alex-wang">ALEXANDER WANG</option>
