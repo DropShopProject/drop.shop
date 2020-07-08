@@ -15,98 +15,99 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 10</div>
-    <img src="/img/j1.jpg" style="width:100%">
-    <div class="text">Travis x Jordan 1's</div>
+    <img src="/img/t5.jpg" style="width:100%">
+    <div class="text">Travis x Jordan</div>
   </div>
 
   <div class="mySlides fade-out">
     <div class="numbertext">1 / 10</div>
+    <img src="/img/t5.jpg" style="width:100%">
+    <div class="text">Travis x Jordan</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="/img/tc.jpg" style="width:100%">
+    <div class="text">Tyler the Creator x Converse</div>
+  </div>
+
+  <div class="mySlides fade-out">
+    <div class="numbertext">2 / 10</div>
+    <img src="/img/tc.jpg" style="width:100%">
+    <div class="text">Tyler the Creator x Converse</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="/img/tj.jpg" style="width:100%">
+    <div class="text">Travis x Jordan 7's</div>
+  </div>
+
+  <div class="mySlides fade-out">
+    <div class="numbertext">8 / 10</div>
+    <img src="/img/tj.jpg" style="width:100%">
+    <div class="text">Travis x Jordan 7's</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="/img/puma.jpg" style="width:100%">
+    <div class="text">Puma x GunnerStahl</div>
+  </div>
+
+  <div class="mySlides fade-out">
+    <div class="numbertext">4 / 10</div>
+    <img src="/img/puma.jpg" style="width:100%">
+    <div class="text">Puma x GunnerStahl</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="/img/russell.jpg" style="width:100%">
+    <div class="text">Westbrook x Jordan</div>
+  </div>
+
+  <div class="mySlides fade-out">
+    <div class="numbertext">5 / 10</div>
+    <img src="/img/russell.jpg" style="width:100%">
+    <div class="text">Westbrook x Jordan</div>
+  </div>
+
+   <div class="mySlides fade">    
+    <div class="numbertext">6 / 10</div>
     <img src="/img/j1.jpg" style="width:100%">
     <div class="text">Travis x Jordan 1's</div>
   </div>
 
+  <div class="mySlides fade-out">
+    <div class="numbertext">6 / 10</div>
+    <img src="/img/j1.jpg" style="width:100%">
+    <div class="text">Travis x Jordan 1's</div>
+  </div>
+
+
   <div class="mySlides fade">
-    <div class="numbertext">2 / 10</div>
+    <div class="numbertext">7 / 10</div>
     <img src="/img/ferg.jpg" style="width:100%">
     <div class="text">A$AP Ferg x Jordan</div>
   </div>
 
   <div class="mySlides fade-out">
-    <div class="numbertext">2 / 10</div>
+    <div class="numbertext">7 / 10</div>
     <img src="/img/ferg.jpg" style="width:100%">
     <div class="text">A$AP Ferg x Jordan</div>
   </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 10</div>
+ <div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
     <img src="/img/ferg1.jpg" style="width:100%">
     <div class="text">A$AP Ferg x Nike</div>
   </div>
 
   <div class="mySlides fade-out">
-    <div class="numbertext">3 / 10</div>
+    <div class="numbertext">8 / 10</div>
     <img src="/img/ferg1.jpg" style="width:100%">
     <div class="text">A$AP Ferg x Nike</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 10</div>
-    <img src="/img/puma.jpg" style="width:100%">
-    <div class="text">Puma x GunnerStahl</div>
-  </div>
-
-  <div class="mySlides fade-out">
-    <div class="numbertext">4 / 10</div>
-    <img src="/img/puma.jpg" style="width:100%">
-    <div class="text">Puma x GunnerStahl</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 10</div>
-    <img src="/img/russell.jpg" style="width:100%">
-    <div class="text">Westbrook x Jordan</div>
-  </div>
-
-  <div class="mySlides fade-out">
-    <div class="numbertext">5 / 10</div>
-    <img src="/img/russell.jpg" style="width:100%">
-    <div class="text">Westbrook x Jordan</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 10</div>
-    <img src="/img/t5.jpg" style="width:100%">
-    <div class="text">Travis x Jordan</div>
-  </div>
-
-  <div class="mySlides fade-out">
-    <div class="numbertext">6 / 10</div>
-    <img src="/img/t5.jpg" style="width:100%">
-    <div class="text">Travis x Jordan</div>
-  </div>
-
-<div class="mySlides fade">
-    <div class="numbertext">7 / 10</div>
-    <img src="/img/tc.jpg" style="width:100%">
-    <div class="text">Tyler the Creator x Converse</div>
-  </div>
-
-  <div class="mySlides fade-out">
-    <div class="numbertext">7 / 10</div>
-    <img src="/img/tc.jpg" style="width:100%">
-    <div class="text">Tyler the Creator x Converse</div>
-  </div>
-
-<div class="mySlides fade">
-    <div class="numbertext">8 / 10</div>
-    <img src="/img/tj.jpg" style="width:100%">
-    <div class="text">Travis x Jordan 7's</div>
-  </div>
-
-  <div class="mySlides fade-out">
-    <div class="numbertext">8 / 10</div>
-    <img src="/img/tj.jpg" style="width:100%">
-    <div class="text">Travis x Jordan 7's</div>
   </div>
 
 <div class="mySlides fade">
