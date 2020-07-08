@@ -12,11 +12,6 @@
   <img src="{{ url('img/dropshopbanner.jpg') }}" id="ds-banner" class="img-fluid">
 </div>
 
-<div class="row text-center">
-  <div class="col">
-  <img src="{{ url('img/logobanner.jpg') }}" id="logo-banner" class="img-fluid">
-  </div>
-</div>
 </div>
 
 

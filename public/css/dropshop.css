@@ -72,14 +72,13 @@ font-family: 'Open Sans', sans-serif;
     position: absolute; 
     left: 50%; 
     transform: translatex(-50%);
-   /* font-family: Poppins;*/
-    font-family: nimbus-sans, sans-serif; 
+    font-family: nimbus-sans, sans-serif; /*THIS IS THE NEW FONT*/
 } 
 
 #navbarItems > li {
 	padding-left: 75px;
 	padding-right: 75px;
-	font-size: 1.9em;
+	font-size: 2.3em;
 }
 
 /*#navbarItems{
