@@ -9,10 +9,10 @@
             <img src="/img/DSlogoNOBORDER.jpg" class="account-logo">
             <h1 class="account-h1">Welcome {{ Auth::user()->name }}</h1>
             <h2 class="account-h2">Account Details</h2>
-            <p class="account-p">Name: {{ Auth::user()->name }}
+            <p class="account-p">Name: <span style="color: #e5d5b4;">{{ Auth::user()->name }}</span>
                 <br>
                 
-                Email: {{ Auth::user()->email }}</p> 
+                Email: <span style="color: #e5d5b4;">{{ Auth::user()->email }}</span></p> 
 
             <form action="{{ action('HomeController@UpdateAccountSettings') }}" method="POST">
                 @csrf
