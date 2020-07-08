@@ -17,7 +17,7 @@ class Product extends Model
     protected $fillable = [];
 
     public function getModalNameAttribute () {
-        return strtolower(str_replace(' ', '', $this->productName));
+        return strtolower(str_replace(' ', '', $this->product_name));
     }
 
         public function scraper_links() {
