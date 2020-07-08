@@ -8,7 +8,7 @@
   <!-- PRODUCTS Heading-->
 <div class="container-fluid">
 <h1 class="img-responsive text-uppercase" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">
-  {{$shoes[0]->collab_name}} <span class="text-lowercase">x</span> {{$shoes[0]->brandName}}
+  {{$shoes[0]->collab_name}} <span class="text-lowercase">x</span> {{$shoes[0]->brand_name}}
 </h1>
 <div class="row text-center" id="logo-banner">
   <div class="col">
@@ -106,12 +106,12 @@
       @foreach ($shoes as $shoe)
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
-        <img src="{{ url($shoe->imgFilePath) }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#{{$shoe->modalName}}" id="size">
-        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#{{$shoe->modalName}}">
-          {{$shoe->productName}} X {{$shoe->collab_name}}
+        <img src="{{ url($shoe->img_file_path) }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#{{$shoe->modal_name}}" id="size">
+        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#{{$shoe->modal_name}}">
+          {{$shoe->product_name}} X {{$shoe->collab_name}}
         </figcaption>
         <figcaption class="figure-caption text-center p-3">
-          <button type="button" id="cmpBtn" class="btn btn-light" data-toggle="modal" data-target="#{{$shoe->modalName}}">
+          <button type="button" id="cmpBtn" class="btn btn-light" data-toggle="modal" data-target="#{{$shoe->modal_name}}">
           Compare prices and sizes
           </button>
         </figcaption>
@@ -124,7 +124,7 @@
 
 </section>
   @foreach ($shoes as $shoe)
-  <div class="modal" id="{{$shoe->modalName}}">
+  <div class="modal" id="{{$shoe->modal_name}}">
     <div class="modal-dialog modal-dialog-centered modal-md">
       <div class="modal-content">
 
@@ -139,15 +139,15 @@
         <div class="container">
           <h3 class="p-3 text-center">FlightClub Prices Starting At:</h3>
           <a href="{{ $shoe->scraper_links->fc_url }}" target="_blank">
-          <h4 class="text-center">&dollar;{{$shoe->lowestFcPrice}}</h4>
+          <h4 class="text-center">&dollar;{{$shoe->lowest_fc_price}}</h4>
           </a>
           <h3 class="p-3 text-center">Goat Prices Starting At:</h3>
           <a href="{{ $shoe->scraper_links->goat_url }}" target="_blank">
-          <h4 class="text-center">&dollar;{{$shoe->lowestGoatPrice}}</h4>
+          <h4 class="text-center">&dollar;{{$shoe->lowest_goat_price}}</h4>
           </a>
           <h3 class="p-3 text-center">Kixify Prices Starting At:</h3>
           <a href="{{ $shoe->scraper_links->kixify_url }}" target="_blank">
-          <h4 class="text-center">&dollar;{{$shoe->lowestKixPrice}}</h4>
+          <h4 class="text-center">&dollar;{{$shoe->lowest_kix_price}}</h4>
           </a>
         </div>
       </div>

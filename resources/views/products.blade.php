@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="em">
-@include('template/headtag', ['title' => 'Drop Shop x Travis Scott'])
+@include('template/headtag', ['title' => 'Drop Shop'])
 <body>
 @include('template/navbar')
 
@@ -81,17 +81,61 @@
       @foreach ($shoes as $shoe)
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
-        <img src="{{ url($shoe->imgFilePath) }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#{{$shoe->modalName}}" id="size">
-        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#{{$shoe->modalName}}">
-          {{$shoe->productName}} X {{$shoe->collab_name}}
+        <img src="{{ url($shoe->img_file_path) }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#{{$shoe->modal_name}}" id="size">
+        <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#{{$shoe->modal_name}}">
+          {{$shoe->product_name}} X {{$shoe->collab_name}}
         </figcaption>
         <figcaption class="figure-caption text-center p-3">
+          <button type="button" id="cmpBtn" class="btn btn-light" data-toggle="modal" data-target="#{{$shoe->modal_name}}">
+          Compare prices and sizes
+          </button>
         </figcaption>
         </figure>
       </div>
       @endforeach
     </div>
   </div>
+
+
+</section>
+  @foreach ($shoes as $shoe)
+  <div class="modal" id="{{$shoe->modal_name}}">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+      <div class="modal-content">
+
+              <!-- MOCHA HIGH MODAL HEADER -->
+      <div class="modal-header">
+        <h3 class="modal-title text-center">Lowest Prices Available:</h3>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+              <!-- MOCHA HIGH MODAL BODY -->
+      <div class="modal-body">
+        <div class="container">
+          <h3 class="p-3 text-center">FlightClub Prices Starting At:</h3>
+          <a href="{{ $shoe->scraper_links->fc_url }}" target="_blank">
+          <h4 class="text-center">&dollar;{{$shoe->lowest_fc_price}}</h4>
+          </a>
+          <h3 class="p-3 text-center">Goat Prices Starting At:</h3>
+          <a href="{{ $shoe->scraper_links->goat_url }}" target="_blank">
+          <h4 class="text-center">&dollar;{{$shoe->lowest_goat_price}}</h4>
+          </a>
+          <h3 class="p-3 text-center">Kixify Prices Starting At:</h3>
+          <a href="{{ $shoe->scraper_links->kixify_url }}" target="_blank">
+          <h4 class="text-center">&dollar;{{$shoe->lowest_kix_price}}</h4>
+          </a>
+        </div>
+      </div>
+
+      <!-- MODAL FOOTER -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+@endforeach
 
 @include('template/footer')
 
