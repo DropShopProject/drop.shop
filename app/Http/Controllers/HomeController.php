@@ -31,7 +31,7 @@ class HomeController extends Controller
     {
 
         
-        Auth::user()->update(array('EmailOptIn' => $request->optIn));
+        Auth::user()->update(array('email_opt_in' => $request->optIn));
         return redirect()->route('account');
        
     }

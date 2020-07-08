@@ -19,7 +19,7 @@
             
             <label for="optIn">
                 <input id='optInHidden' type='hidden' value=0 name='optIn'>
-                <input id='optIn' type='checkbox' value=1 name='optIn' @if (Auth::user()->emailOptIn) checked @endif> Receive Email Notifications?
+                <input id='optIn' type='checkbox' value=1 name='optIn' @if (Auth::user()->email_opt_in) checked @endif> Receive Email Notifications?
             </label>
             
 
