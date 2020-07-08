@@ -12,11 +12,6 @@
   <img src="{{ url('img/dropshopbanner.jpg') }}" id="ds-banner" class="img-fluid">
 </div>
 
-<div class="row text-center">
-  <div class="col">
-  <img src="{{ url('img/logobanner.jpg') }}" id="logo-banner" class="img-fluid">
-  </div>
-</div>
 </div>
   <!-- <div class="col">
       <div id="logo-banner">
@@ -94,7 +89,7 @@
 
 
   <!-- JULY SHOES -->
-    <h2 id="july" class="img-responsive" class="julyHeader" style="color: black; text-align: center; font-size: 40px; padding-bottom: 30px;">JULY<h2>
+    <h2 id="july" class="img-responsive" class="julyHeader" style="color: black; text-align: center; font-size: 60px; padding-bottom: 30px;">JULY<h2>
 
     <div class="row text-center product-leftAK" id="products1">
 
@@ -216,7 +211,7 @@
     </div>
 
     <!-- FIRST ROW AUGUST -->
-    <h2 id="august" class="img-responsive" class="augustHeader" style="color: black; text-align: center; font-size: 40px; padding-bottom: 30px;">AUGUST<h2>
+    <h2 id="august" class="img-responsive" class="augustHeader" style="color: black; text-align: center; font-size: 60px; padding-bottom: 30px;">AUGUST<h2>
 
     <div class="row text-center product-leftAK" id="products1">
 
@@ -279,7 +274,7 @@
     </div>
 
     <!-- FIRST ROW SEPTEMBER -->
-    <h2 id="september" class="img-responsive" class="augustHeader" style="color: black; text-align: center; font-size: 40px; padding-bottom: 30px;">SEPTEMBER<h2>
+    <h2 id="september" class="img-responsive" class="augustHeader" style="color: black; text-align: center; font-size: 60px; padding-bottom: 30px;">SEPTEMBER<h2>
 
     <div class="row text-center product-left1AK" id="products1" id="september">
       <div class="col-md-4 d-flex justify-content-center">
