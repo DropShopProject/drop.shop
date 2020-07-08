@@ -14,7 +14,7 @@ class MailController extends Controller
     public function send(Request $request)
     {
 
-       $sent = User::where('EmailOptIn', 1)->get(['id', 'email']);
+       $sent = User::where('email_opt_in', 1)->get(['id', 'email']);
       
        $emails = [];
        foreach($sent as $s)
@@ -24,7 +24,7 @@ class MailController extends Controller
 
 
 
-        Mail::send('emails.mail', $emails, function ($message) use ($emails)
+        Mail::send('emails.newsletter', $emails, function ($message) use ($emails)
         {
             $message->from('dropshop4935@gmail.com');
             $message->bcc($emails);
