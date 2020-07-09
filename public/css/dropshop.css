@@ -2,19 +2,36 @@
   width: 75vw;
 }
 
-/*.dsbanner{
+#ds-banner{
+  padding-top: 50px;
   padding-bottom: 20px;
-}*/
+}
 
 .dropdown-menu {
   color: white;
   background-color: black;
+  width: 100%;
+  text-align: center;
 }
+
+.dropdown-menu:hover {
+  display: block!important;
+}
+
 .dropdown-item {
-  color: white;
+  color: white!important;
+  background-color: black; 
   padding-left: 50px;
   padding-right: 50px;
   font-size: 1.2em;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #e5d5b4;
+  font-size: 1.5em;
+  color: black!important;
+  font-weight: bold;
 }
 
 #cmpBtn {
@@ -22,8 +39,13 @@
   color: black;
 }
 
+#cmpBtn:hover {
+  transform: scale(1.1, 1.1);
+  font-weight: bold;
+}
+
 #products-navbar{
-  background-color:  #e5d5b4;
+  /*background-color:  #e5d5b4;*/
   color: black!important;
   font-family: 'Open Sans', sans-serif;
 }
@@ -206,6 +228,7 @@ h1{
 .footer{
   background-color:  #e5d5b4;
   flex-shrink: 0;
+  margin-top: 50px;
 }
 
 #Prod-header{
@@ -229,19 +252,16 @@ h1{
   display: block;
 }
 #products1{
-   padding-top: 90px;
+   padding-top: 80px;
   padding-bottom: 80px;
-  box-shadow: 4px 4px 5px #000000;
+  box-shadow: 0px 0px 10px #000000;
   background-color: #ffffff !important;
 }
 #products2{
-   padding-top: 90px;
+   padding-top: 80px;
   padding-bottom: 80px;
-  box-shadow: 4px 4px 5px #000000;
+  box-shadow: 0px 0px 10px #000000;
   background-color: #ffffff !important;
-}
-#products-navbar{
-  background-color:  #e5d5b4;
 }
 
 .social-wrapper {
@@ -265,13 +285,19 @@ h1{
   padding-right: 60px;
   padding-left: 60px;
 }
-#size:hover {
-  border-color: black!important;
-  cursor: pointer;
+
+.figure {
+  margin-top: 10px;
 }
-figcaption:hover {
-  color: red;
+
+.figure:hover {
+  transform: scale(1.1, 1.1);
   cursor: pointer;
+  box-shadow: 0 0 10px #000000;
+}
+
+figcaption:hover {
+  font-weight: bold;
 }
 #logo {
   opacity: 0.8;
@@ -308,11 +334,6 @@ box-shadow: 3px 3px 4px #000000;
 #logo-banner{
   padding-top: 30px;
 
-}
-
-#ds-banner{
-  padding-top: 50px;
-  padding-bottom: 20px;
 }
 
 /* Account Pages */

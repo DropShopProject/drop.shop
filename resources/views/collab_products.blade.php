@@ -5,40 +5,29 @@
 @include('template/navbar')
 
 
-  <!-- PRODUCTS Heading-->
-<div class="container-fluid">
-<h1 class="img-responsive text-uppercase" id="Prod-header"style="color: black; text-align: center; font-size: 70px;">
-  {{$shoes[0]->collab_name}} <span class="text-lowercase">x</span> {{$shoes[0]->brand_name}}
-</h1>
-<div class="row text-center" id="logo-banner">
-  <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/nikelogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/adidaslogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/jordanlogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/supremelogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/offwhitelogo.jpg') }}" class="img-fluid"  class="animation flipInX">
-      </div>
-      </div>
-</div>
-</div>
+<style type="text/css">
+  div#ctnBanner {
+  position: relative!important;
+}
 
+div#pageHeader {
+  position: absolute!important;
+  color: red!important;
+  top: 43%!important;
+  left: 20%!important;
+  font-size: 4.5em;
+}
+</style>
+
+  <!-- PRODUCTS Heading-->
+<div class="container text-center" id="container">
+  <div class="container" id="ctnBanner">
+    <img src="{{ url('img/dropshopbanner.jpg') }}" id="ds-banner">
+    <div class="text-uppercase" id="pageHeader">
+    {{$shoes[0]->collab_name}} <span class="text-lowercase">x</span> {{$shoes[0]->brand_name}}
+    </div>
+  </div>
+</div>
 
 <section>
   
@@ -65,7 +54,7 @@
                   <li class="nav-item ml-auto dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="celebDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CELEBRITIES
                     </a>
-                    <div class="dropdown-menu justify-content-center" aria-labelledby="celebDrop">
+                    <div class="dropdown-menu" aria-labelledby="celebDrop">
                       <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'travis-scott']) }}">TRAVIS SCOTT
                       </a>
                       <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'asap-rocky']) }}">A$AP ROCKY
