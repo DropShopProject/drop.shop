@@ -12,7 +12,7 @@
   <!-- PRODUCTS Heading-->
 <div class="container-fluid text-center" id="container">
   <div class="container" id="ctnBanner">
-    <img src="{{ url('img/dropshopbanner.jpg') }}" id="ds-banner">
+    <img src="{{ url('img/COLLABBANER.jpg') }}" id="ds-banner">
     <div class="text-uppercase" id="pageHeader">
     {{$shoes[0]->collab_name}} <span class="text-lowercase">x</span> {{$shoes[0]->brand_name}}
     </div>
@@ -133,7 +133,7 @@
               </a>
             </div>
             <div class="col" id="modalDesc">
-              <div class="p-3 text-center">
+              <div class="p-3 text-center" id="prodDesc">
                 {{$shoe->product_description}}
               </div>
             </div>
