@@ -6,7 +6,7 @@
 
 
         <div class="navbar-header">
-             <a class="navbar-brand" href="{{ route('drop-shop') }}"><img src="{{ url('img/DSlogoNOCREAM.jpg') }}" class="img-responsive logo"></a>
+             <a class="navbar-brand" href="{{ route('drop-shop') }}"><img src="{{ url('img/DSL2.jpg') }}" class="img-responsive logo"></a>
         </div>
 
 
