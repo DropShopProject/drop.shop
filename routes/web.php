@@ -31,9 +31,9 @@ Route::get('calendar', function () {
     return view('calendar');
 })-> name("calendar");
 
-Route::get('contact', function () {
-    return view('contact');
-})-> name("contact");
+Route::get('socials', function () {
+    return view('socials');
+})-> name("socials");
 
 Route::get('login', function () {
     return view('login');
