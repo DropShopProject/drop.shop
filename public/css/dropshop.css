@@ -1,5 +1,5 @@
 #container {
-  width: 75vw;
+  width: 85vw;
 }
 
 #ds-banner{
@@ -28,7 +28,7 @@
 }
 
 .dropdown-item:hover {
-  background-color: #e5d5b4;
+  background-color: #e5d5b4!important;
   font-size: 1.5em;
   color: black!important;
   font-weight: bold;
@@ -42,6 +42,32 @@
 #cmpBtn:hover {
   transform: scale(1.1, 1.1);
   font-weight: bold;
+}
+
+h3#modPriceHead {
+  position: absolute;
+  left: 10%;
+  font-size: 2.3em;
+  top: 1%;
+}
+
+h3#modProdDesc {
+  position: absolute;
+  right: 12%;
+  font-size: 2.3em;
+  top: 1%;
+}
+
+div#ctnBanner {
+  position: relative!important;
+}
+
+div#pageHeader {
+  position: absolute!important;
+  color: red!important;
+  top: 43%!important;
+  left: 20%!important;
+  font-size: 4.5em;
 }
 
 #products-navbar{
