@@ -25,7 +25,7 @@
                     <a class="nav-link" href="{{ route('calendar') }}">CALENDAR</a>
                   </li>
                   <li class="nav-item ml-auto">
-                    <a class="nav-link" href="{{ route('contact') }}">SOCIALS</a>
+                    <a class="nav-link" href="{{ route('socials') }}">SOCIALS</a>
                   </li>
             
                        <!-- User icon button -->
