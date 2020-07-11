@@ -6,7 +6,14 @@
 
 @include('template/navbar')
 
-    <h1 class="text-center" style="font-size: 60px; padding-bottom: 50px; color: black;">CONTACT</h1>
+<div class="container-fluid text-center">
+
+<div class="dsbanner text-center">
+  <img src="{{ url('img/SOCIALSBANNER.jpg') }}" id="ds-banner" class="img-fluid">
+</div>
+
+</div>
+
     <div class="container-fluid justify-content-center" id="container">
       <div class="row text-center">
         <div class="col text-center">
