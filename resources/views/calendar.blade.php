@@ -9,7 +9,7 @@
 <div class="container-fluid text-center">
 
 <div class="dsbanner text-center">
-  <img src="{{ url('img/dropshopbanner.jpg') }}" id="ds-banner" class="img-fluid">
+  <img src="{{ url('img/CALENDARBANNER.jpg') }}" id="ds-banner" class="img-fluid">
 </div>
 
 </div>

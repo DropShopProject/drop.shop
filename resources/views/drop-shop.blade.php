@@ -8,6 +8,13 @@
 	<!-- Navbar -->
 
 @include('template/navbar')
+<div class="container-fluid text-center">
+
+<div class="dsbanner text-center">
+  <img src="{{ url('img/dropshopbanner.jpg') }}" id="ds-banner" class="img-fluid">
+</div>
+
+</div>
 
 	<!-- Slideshow -->
 <div class="slideshow-container">
@@ -175,7 +182,7 @@ function showSlides() {
 
 <div class="container-fluid">
   <h2 style="color: black; font-size: 50px;">ABOUT US</h2><br>
-  <p style="color: black; font-size: 25px;">We strive to provide the SneakerHead community with a streamline hub that consists of product availability, price comaprisons, and release information.</p>
+  <p style="color: black; font-size: 25px;">We strive to provide the SneakerHead community with a streamline hub that consists of product availability, price comparisons, and release information.</p>
 
 </div>
 
