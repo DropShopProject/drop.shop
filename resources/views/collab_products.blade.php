@@ -75,7 +75,7 @@
       </div>
     </nav>
 
-    <!-- FIRST ROW OF SHOES -->
+    <!-- FIRST INSTANCE OF SHOE -->
     <div class="row text-center" id="products1">
       @foreach ($shoes as $shoe)
       <div class="col-md-4 d-flex justify-content-center">
@@ -102,14 +102,14 @@
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
 
-              <!-- MOCHA HIGH MODAL HEADER -->
+              <!-- MODAL HEADER -->
       <div class="modal-header">
         <h3 class="modal-title text-center" id="modPriceHead">Lowest Prices Available:</h3>
         <h3 class="modal-title text-center" id="modProdDesc">Product Description:</h3>
         <button id="XModal" type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
-              <!-- MOCHA HIGH MODAL BODY -->
+              <!-- MODAL BODY -->
       <div class="modal-body">
         <div class="container" id="modalPrices">
           <div class="row">
