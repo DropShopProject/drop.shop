@@ -4,12 +4,6 @@
 <body>
 @include('template/navbar')
 
-<!-- FUNCTION TO REMOVE HYPHENS
-$shoes= collect($shoez)->map(function ($arr) {
-            $arr['collab_name'] = str_replace('-', ' ', $arr['collab_name']);
-        });
-!-->
-
   <!-- PRODUCTS Heading-->
 <div class="container-fluid text-center" id="container">
   <div class="container" id="ctnBanner">
@@ -21,7 +15,7 @@ $shoes= collect($shoez)->map(function ($arr) {
 </div>
 
 <section>
-  
+
   <div class="container-fluid justify-content-center" id="container">
 
     <!-- PRODUCTS NAV BAR -->
