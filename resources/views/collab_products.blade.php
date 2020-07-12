@@ -4,10 +4,11 @@
 <body>
 @include('template/navbar')
 
-
-<style type="text/css">
-  
-</style>
+<!-- FUNCTION TO REMOVE HYPHENS
+$shoes= collect($shoez)->map(function ($arr) {
+            $arr['collab_name'] = str_replace('-', ' ', $arr['collab_name']);
+        });
+!-->
 
   <!-- PRODUCTS Heading-->
 <div class="container-fluid text-center" id="container">
@@ -111,7 +112,7 @@
       <div class="modal-header">
         <h3 class="modal-title text-center" id="modPriceHead">Lowest Prices Available:</h3>
         <h3 class="modal-title text-center" id="modProdDesc">Product Description:</h3>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <button id="XModal" type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
               <!-- MOCHA HIGH MODAL BODY -->
@@ -133,9 +134,9 @@
               </a>
             </div>
             <div class="col" id="modalDesc">
-              <div class="p-3 text-center" id="prodDesc">
+              <h3 class="p-3 text-center" id="prodDesc">
                 {{$shoe->product_description}}
-              </div>
+              </h3>
             </div>
           </div>
         </div>
@@ -144,7 +145,7 @@
 
       <!-- MODAL FOOTER -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button id="closeModal" type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
 
     </div>

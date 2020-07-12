@@ -13,7 +13,7 @@ class ProductController extends Controller
           return redirect()->route('drop-shop');
         }
 
-        return view('collab_products')->with('shoes', $shoes);
+        return view('collab_products')->with('shoes', $shoes); 
     }
     
     public function show_random_products() {

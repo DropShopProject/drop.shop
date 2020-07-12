@@ -100,36 +100,45 @@
 </section>
   @foreach ($shoes as $shoe)
   <div class="modal" id="{{$shoe->modal_name}}">
-    <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
 
               <!-- MOCHA HIGH MODAL HEADER -->
       <div class="modal-header">
-        <h3 class="modal-title text-center">Lowest Prices Available:</h3>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title text-center" id="modPriceHead">Lowest Prices Available:</h3>
+        <h3 class="modal-title text-center" id="modProdDesc">Product Description:</h3>
+        <button id="XModal" type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
               <!-- MOCHA HIGH MODAL BODY -->
       <div class="modal-body">
-        <div class="container">
-          <h3 class="p-3 text-center">FlightClub Prices Starting At:</h3>
-          <a href="{{ $shoe->scraper_links->fc_url }}" target="_blank">
-          <h4 class="text-center">&dollar;{{$shoe->lowest_fc_price}}</h4>
-          </a>
-          <h3 class="p-3 text-center">Goat Prices Starting At:</h3>
-          <a href="{{ $shoe->scraper_links->goat_url }}" target="_blank">
-          <h4 class="text-center">&dollar;{{$shoe->lowest_goat_price}}</h4>
-          </a>
-          <h3 class="p-3 text-center">Kixify Prices Starting At:</h3>
-          <a href="{{ $shoe->scraper_links->kixify_url }}" target="_blank">
-          <h4 class="text-center">&dollar;{{$shoe->lowest_kix_price}}</h4>
-          </a>
-        </div>
+        <div class="container" id="modalPrices">
+          <div class="row">
+            <div class="col">
+              <h3 class="p-3 text-center">FlightClub Prices Starting At:</h3>
+              <a href="{{ $shoe->scraper_links->fc_url }}" target="_blank">
+              <h4 class="text-center">&dollar;{{$shoe->lowest_fc_price}}</h4>
+              </a>
+              <h3 class="p-3 text-center">Goat Prices Starting At:</h3>
+              <a href="{{ $shoe->scraper_links->goat_url }}" target="_blank">
+              <h4 class="text-center">&dollar;{{$shoe->lowest_goat_price}}</h4>
+              </a>
+              <h3 class="p-3 text-center">Kixify Prices Starting At:</h3>
+              <a href="{{ $shoe->scraper_links->kixify_url }}" target="_blank">
+              <h4 class="text-center">&dollar;{{$shoe->lowest_kix_price}}</h4>
+              </a>
+            </div>
+            <div class="col" id="modalDesc">
+              <h3 class="p-3 text-center" id="prodDesc">
+                {{$shoe->product_description}}
+              </h3>
+            </div>
+          </div>
       </div>
 
       <!-- MODAL FOOTER -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button id="closeModal" type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
 
     </div>
