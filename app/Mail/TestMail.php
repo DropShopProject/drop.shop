@@ -31,6 +31,6 @@ class TestMail extends Mailable
         return $this
                 ->from('dropshop4935@gmail.com') // Sender mail
                 ->subject('Test Subject') // Mail subject
-                ->view('emails.mail'); //View file resource/views/emails/mail.blade.php
+                ->view('emails.newsletter'); //View file resource/views/emails/newsletter.blade.php
     }
 }
