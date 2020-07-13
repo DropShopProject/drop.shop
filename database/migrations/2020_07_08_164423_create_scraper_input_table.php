@@ -15,9 +15,9 @@ class CreateScraperInputTable extends Migration
     {
         Schema::create('scraper_input', function (Blueprint $table) {
             $table->id();
-            $table->string('goat_url')->unique();
-            $table->string('fc_url')->unique();
-            $table->string('kixify_url')->unique();
+            $table->string('goat_url',191)->unique();
+            $table->string('fc_url',191)->unique();
+            $table->string('kixify_url',191)->unique();
             $table->string('collab_name');
             $table->timestamps();
         });
