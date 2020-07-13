@@ -365,7 +365,8 @@ img.gmail-logo:hover{
 }
 
 figcaption:hover {
-  font-weight: bold;
+ /* font-weight: bold; */
+  color: #ff6600;
 }
 
 #logo {
