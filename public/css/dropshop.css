@@ -95,7 +95,7 @@ div#ctnBanner {
 
 div#pageHeader {
   position: absolute!important;
-  color: #ff6600!important;
+  color: #e5d5b4!important;
   top: 43%!important;
   left: 18%!important;
   font-size: 4.3em;
@@ -109,8 +109,12 @@ div#pageHeader {
 }
 
 #products-bar > ul > li > a {
-  color: black!important;
+  color: rgb(0,0,0,.5)!important;
   font-size: 20px;
+}
+
+#products-bar > ul > li > a:hover {
+  color: black!important;
 }
 
 #navbarItems-tab > li{
