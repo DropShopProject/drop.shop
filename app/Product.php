@@ -21,6 +21,6 @@ class Product extends Model
     }
 
         public function scraper_links() {
-            return $this->hasOne('App\ScraperInput', 'id');
+            return $this->hasOne('App\ScraperInput', 'id', 'links_id');
         }
 }

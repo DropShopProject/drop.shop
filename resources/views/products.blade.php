@@ -115,15 +115,15 @@
           <div class="row">
             <div class="col">
               <h3 class="p-3 text-center">FlightClub Prices Starting At:</h3>
-              <a href="{{ $shoe->scraper_links->fc_url }}" target="_blank">
+              <a href="{{ $shoe->scraper_links->fc_url ?? "products"  }}" target="_blank">
               <h4 class="text-center">&dollar;{{$shoe->lowest_fc_price}}</h4>
               </a>
               <h3 class="p-3 text-center">Goat Prices Starting At:</h3>
-              <a href="{{ $shoe->scraper_links->goat_url }}" target="_blank">
+              <a href="{{ $shoe->scraper_links->goat_url ?? "products"  }}" target="_blank">
               <h4 class="text-center">&dollar;{{$shoe->lowest_goat_price}}</h4>
               </a>
               <h3 class="p-3 text-center">Kixify Prices Starting At:</h3>
-              <a href="{{ $shoe->scraper_links->kixify_url }}" target="_blank">
+              <a href="{{ $shoe->scraper_links->kixify_url ?? "products"  }}" target="_blank">
               <h4 class="text-center">&dollar;{{$shoe->lowest_kix_price}}</h4>
               </a>
             </div>
@@ -134,14 +134,12 @@
             </div>
           </div>
         </div>
-
       </div>
 
       <!-- MODAL FOOTER -->
       <div class="modal-footer">
         <button id="closeModal" type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
-
     </div>
   </div>
 </div>
