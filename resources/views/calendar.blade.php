@@ -11,56 +11,7 @@
 <div class="dsbanner text-center">
   <img src="{{ url('img/CALENDARBANNER.jpg') }}" id="ds-banner" class="img-fluid">
 </div>
-
 </div>
-  <!-- <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/nikelogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/adidaslogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/jordanlogo.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/CJ.jpg') }}" class="img-fluid" class="animation flipInX">
-      </div>
-      </div>
-      <div class="col">
-      <div id="logo-banner">
-        <img src="{{ url('img/offwhitelogo.jpg') }}" class="img-fluid"  class="animation flipInX">
-      </div>
-      </div>
-</div> -->
-
-<!-- <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#july">Section 1</a></li>
-          <li><a href="#section2">Section 2</a></li>
-          <li><a href="#section3">Section 3</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>
- -->
    <section>
 
   <div class="container-fluid justify-content-center" id="container">
@@ -136,7 +87,7 @@
 
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
-          <img src="{{ url('img/NIKEKD13.jpg') }}" class="img-fluid" style="width: 175px; height: 125px;">
+          <img src="{{ url('img/NikeKD13USA.jpg') }}" class="img-fluid" style="width: 175px; height: 125px;">
           <figcaption style="text-decoration: underline; font-size: 17px;">NIKE x KD 13 "USA"</figcaption>
           <figcaption style="text-decoration: underline; font-size: 17px;">$150 - JULY 3RD</figcaption>
         </figure>
@@ -199,14 +150,6 @@
         <figcaption style="text-decoration: underline; font-size: 17px;">$190 - JULY 18TH</figcaption>
         </figure>
       </div>
-
-<!--       <div class="col-md-4 d-flex justify-content-center">
-        <figure class="figure">
-        <img src="{{ url('img/jsmith.jpg') }}" class="img-fluid" style="width: 175px; height: 125px;">
-        <figcaption style="text-decoration: underline; font-size: 17px;">JADEN SMITH X NEW BALANCE "VISION RACER"</figcaption>
-        <figcaption style="text-decoration: underline; font-size: 17px;">$150 - JULY 24TH</figcaption>
-        </figure>
-      </div> -->
 
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
