@@ -86,7 +86,7 @@
         </figcaption>
         <figcaption class="figure-caption text-center p-3">
           <button type="button" id="cmpBtn" class="btn btn-light" data-toggle="modal" data-target="#{{$shoe->modal_name}}">
-          Compare prices and sizes
+          COMPARE PRICES
           </button>
         </figcaption>
         </figure>
