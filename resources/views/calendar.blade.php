@@ -134,7 +134,7 @@
         </figure>
       </div>
 
-   <div class="col-md-4 d-flex justify-content-center">
+      <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
           <img src="{{ url('img/NIKEKD13.jpg') }}" class="img-fluid" style="width: 175px; height: 125px;">
           <figcaption style="text-decoration: underline; font-size: 17px;">NIKE x KD 13 "USA"</figcaption>
@@ -142,7 +142,7 @@
         </figure>
       </div>
 
-       <div class="col-md-4 d-flex justify-content-center">
+      <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
           <img src="{{ url('img/NIKEPG4.jpg') }}" class="img-fluid" style="width: 175px; height: 125px;">
           <figcaption style="text-decoration: underline; font-size: 17px;">NIKE x PG 4 "USA"</figcaption>
@@ -200,9 +200,17 @@
         </figure>
       </div>
 
+<!--       <div class="col-md-4 d-flex justify-content-center">
+        <figure class="figure">
+        <img src="{{ url('img/jsmith.jpg') }}" class="img-fluid" style="width: 175px; height: 125px;">
+        <figcaption style="text-decoration: underline; font-size: 17px;">JADEN SMITH X NEW BALANCE "VISION RACER"</figcaption>
+        <figcaption style="text-decoration: underline; font-size: 17px;">$150 - JULY 24TH</figcaption>
+        </figure>
+      </div> -->
+
       <div class="col-md-4 d-flex justify-content-center">
         <figure class="figure">
-        <img src="{{ url('img/OFFWHITEJ4SP.jpg') }}" class="img-fluid" style="width: 175px; height: 125px;">
+        <img src="{{ url('img/offwhitej4stx.jpg') }}" class="img-fluid" style="width: 175px; height: 125px;">
         <figcaption style="text-decoration: underline; font-size: 17px;">OFF-WHITE x AIR JORDAN 4 SP WMNS</figcaption>
         <figcaption style="text-decoration: underline; font-size: 17px;">$120 - JULY 25TH</figcaption>
         </figure>
