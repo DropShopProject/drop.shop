@@ -7,6 +7,11 @@
 <footer class="footer">
   <div class="social-wrapper">
     <ul class="unstyled">
+
+      <li style="padding-right: 40px;">
+      <a href="https://www.facebook.com/DropShop-101779201616820" target="_blank" rel="noopener"><img class="fbook-logo" style="height: 40px; width: 40px;" src="https://img.icons8.com/ios-glyphs/50/000000/facebook-f.png" /></a>
+      </li>
+      
       <li style="padding-right: 40px;">
       <a href="https://twitter.com/DropShop4935" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" class="twitter-logo" style="height: 40px; width: 40px;"></a>
       </li>
@@ -15,9 +20,7 @@
       <a href="https://instagram.com/dropshop4935?igshid=1ci1k571w1da5" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/instagram.png" class="insta-logo" style="height: 40px; width: 40px;"></a>
       </li>
 
-      <li style="padding-right: 40px;">
-      <a href="mailto:dropshop4935@gmail.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/upload-mail.png" class="gmail-logo" style="height: 40px; width: 40px;"></a>
-      </li>
+      
     </ul>
     
   </div>
