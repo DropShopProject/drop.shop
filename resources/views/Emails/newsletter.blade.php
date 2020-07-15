@@ -31,7 +31,7 @@
                                 <tbody></tbody>
                                 <tbody>
                                   <tr>
-                                    <td style="border-collapse:collapse;padding:0" align="center"><a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/products"><img style="display: block; border: none; max-height:auto; max-width: 640px" src="{{ url('img/dropshopbanner.jpg') }}" width="640" height="auto"></a>
+                                    <td style="border-collapse:collapse;padding:0" align="center"><a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/products"><img style="display: block; border: none; max-height:auto; max-width: 640px" src="{{ url('img/july.jpg') }}" width="640" height="auto"></a>
                                     </td>
                                   </tr>
                                 </tbody>
@@ -57,7 +57,7 @@
                                                 <tbody>
                                                   <tr>
                                                     <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0;">
-                                                      <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff;" width="200" height="auto" src="{{ url('img/offwhite-rubberduck.jpg') }}"><figcaption style="font-size: 14px;">OFF-WHITE x NIKE AIR RUBBER DUNK (UNIVERSITY GOLD)</figcaption>
+                                                      <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff;" width="200" height="auto" src="{{ url('img/adidasAdizeroRose1.jpg') }}"><figcaption style="font-size: 14px;">ADIDAS ADIZERO ROSE 1 BLACK RED (2020)</figcaption>
                                                       <figcaption style="font-size: 13px;">July 1st - Tap For Price</figcaption></a></td>
                                                     </tr>
                                                   </tbody>
@@ -113,7 +113,7 @@
                                                 <tbody>
                                                   <tr>
                                                     <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
-                                                      <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/NIKEKD13.jpg') }}"><figcaption style="font-size: 14px;">NIKE x KD 13 "USA"</figcaption>
+                                                      <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/NikeKD13USA.jpg') }}"><figcaption style="font-size: 14px;">NIKE x KD 13 "USA"</figcaption>
                                                       <figcaption style="font-size: 13px;">JULY 3RD - Tap For Price</figcaption></a></td>
                                                     </tr>
                                                   </tbody>
@@ -210,7 +210,7 @@
                                                 <tbody>
                                                   <tr>
                                                     <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
-                                                      <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/OFFWHITEJ4SP.jpg') }}">
+                                                      <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/offwhitej4stx.jpg') }}">
                                                       <figcaption style="font-size: 14px;">OFF-WHITE x AIR JORDAN 4 SP WMNS</figcaption>
                                                       <figcaption style="font-size: 13px;">JULY 25TH - Tap For Price</figcaption></a></td>
                                                     </tr>

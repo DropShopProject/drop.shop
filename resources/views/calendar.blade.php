@@ -48,10 +48,10 @@
       <div class="col-md-4 d-flex justify-content-center">
   
         <figure class="figure">
-          <img src="{{ url('img/offwhite-rubberduck.jpg') }}"
+          <img src="{{ url('img/adidasAdizeroRose1.jpg') }}"
           class="img-fluid" style="width: 200px; height: 125px;">
-          <figcaption style="text-decoration: underline; font-size: 17px;">OFF-WHITE x NIKE AIR RUBBER DUNK (UNIVERSITY GOLD)</figcaption>
-          <figcaption style="text-decoration: underline; font-size: 17px;">$189 - JULY 1ST</figcaption>
+          <figcaption style="text-decoration: underline; font-size: 17px;">ADIDAS ADIZERO ROSE 1 BLACK RED (2020)</figcaption>
+          <figcaption style="text-decoration: underline; font-size: 17px;">$130 - JULY 1ST</figcaption>
         </figure>
       </div>
 
