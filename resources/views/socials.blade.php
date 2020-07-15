@@ -72,7 +72,7 @@
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0" nonce="T6kEMjrU"></script>
 
-        <div class="fb-page" data-href="https://www.facebook.com/DropShop-101779201616820" data-tabs="timeline,events,messages" data-height="610px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/DropShop-101779201616820" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DropShop-101779201616820">DropShop</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/DropShop-101779201616820" data-tabs="timeline,events,messages" data-height="610px" data-width="800px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/DropShop-101779201616820" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/DropShop-101779201616820">DropShop</a></blockquote></div>
       </div>
     </div>
 
