@@ -1,260 +1,239 @@
 <!DOCTYPE html>
 
-<style>
-	#container {
-  width: 50vw;
-}
-#ig1 {
-  width: 33%!important;
-}
-.navbar-brand{
-	margin: 0;
-	padding: 0; 
-}
+<body>
 
-.glyphicon-user{
-	font-size: 1.45em;
- 
-}
+<div bgcolor="#ffffff" style="margin-top:0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100%; background-color: #ffffff; color: #000000;">
 
-.logo{
-	height: 120px;
-	padding-right: 15px;
-	padding-left: 5px;
-}
+<div style="background-color: #ffffff"></div>
+<table style="border-collapse: collapse; margin: 0 auto" border="0" width="100%" cellspacing="0" align="center">
+  <tbody>
+    <tr>
+      <td style="text-align:center" align="center" valign="top" bgcolor="#f9f9f9">
+        <table style="border-collapse:collapse;margin:0 auto;table-layout:fixed;max-width:640" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+          <tbody>
+            <tr>
+              <td style="border-collapse:collapse;padding:0px" align="center" valign="top" width="640">
+                <table style="border-collapse:collapse" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+                        </table>
+                      </td>
+                    </tr>
+                    <!-- Banner -->
+                    <tr id="wrapper" width="640">
+                      <tbody>
+                        <tr>
+                          <td align="center" valign="top" bgcolor="#ffffff" width="640">
+                            <table style="border-collapse:collapse;margin:0" border="0" width="640" cellspacing="0" cellpadding="0">
+                              <tbody></tbody>
+                              <tbody>
+                                <tr>
+                                  <td style="border-collapse:collapse;padding:0" align="center"><a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/products"><img style="display: block; border: none; max-height:auto; max-width: 640px" src="{{ url('img/dropshopbanner.jpg') }}" width="640" height="auto"></a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+<tbody>
+    <tr>
+      <td id="no-pad" style="border-collapse:collapse;background-color:#ffffff;padding-bottom:25px" align="center" width="640">
+        <table border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+          <tbody>
+            <tr>
+              <td style="border: 0; border-collapse: collapse; margin: 0 auto; padding:0; display: inline-block" align="center" width="640">
+                <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0" align="left">
+                  <tbody>
 
-.navbar-nav.navbar-center { 
-    position: absolute; 
-    left: 50%; 
-    transform: translatex(-50%);
-   /* font-family: Poppins;*/
-    font-family: nimbus-sans, sans-serif;
-    background-color:  #e5d5b4; 
-} 
+                    <!-- Row 1 -->
+                    <tr>
+                      <td id="left-image" style="padding:0 20px 0 100px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0;">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff;" width="200" height="auto" src="{{ url('img/offwhite-rubberduck.jpg') }}"><figcaption style="font-size: 14px;">OFF-WHITE x NIKE AIR RUBBER DUNK (UNIVERSITY GOLD)</figcaption>
+          <figcaption style="font-size: 13px;">July 1st - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
 
-#navbarItems > li {
-	padding-left: 75px;
-	padding-right: 75px;
-	font-size: 1.9em;
-}
+                        <td id="right-image" style="padding:0 100px 0 20px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/NIKEALPHA.jpg') }}"><figcaption style="text-decoration: underline; font-size: 14px;">NIKE AIR ZOOM ALPHAYFLY NEXT% "WATERMELON"</figcaption>
+          <figcaption style="text-decoration: underline; font-size: 13px;">JULY 2ND - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+</tbody>
+<tbody>
+                        <!-- Row 2 -->
+                      <tr>
+                      <td id="left-image" style="padding:0 20px 0 100px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/ADIDASCGD.jpg') }}"><figcaption style="font-size: 14px;">ADIDAS x CRAIG GREEN GRADDFA AKHA</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 2ND - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
 
-/*#navbarItems{
-  padding-right: 40px;
-}*/
+                        <td id="right-image" style="padding:0 100px 0 20px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/ADIDASPW.jpg') }}">
+                                <figcaption style="font-size: 14px;">ADIDAS x PHARRELL WILLIAMS SUPERSTAR</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 3RD - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+</tbody>
+<tbody>
 
+                      <!-- Row 3 -->
+                      <tr>
+                      <td id="left-image" style="padding:0 20px 0 100px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/NIKEKD13.jpg') }}"><figcaption style="font-size: 14px;">NIKE x KD 13 "USA"</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 3RD - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
 
-#User-icon{
-	float: right;
-	padding-bottom: 9px;
+                        <td id="right-image" style="padding:0 100px 0 20px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/NIKEPG4.jpg') }}">
+                                <figcaption style="font-size: 14px;">NIKE x PG 4 "USA"</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 3RD - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+</tbody>
+<tbody>
+                      <!-- Row 4 -->
+                      <tr>
+                      <td id="left-image" style="padding:0 20px 0 100px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/NIKEFOG1BL.jpg') }}"><figcaption style="font-size: 14px;">NIKE x FOG 1 "TRIPLE BLACK"</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 4TH - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
 
-}
-.glyphicon glyphicon-user{
-  background-color:  #e5d5b4;
-}
-.nav-item > li {
-	/*font-size: 2.4em !important;*/
-}
+                        <td id="right-image" style="padding:0 100px 0 20px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/jdiorclndr.jpg') }}">
+                                <figcaption style="font-size: 14px;">JORDAN 1 RETRO HIGH x DIOR</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 7TH - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+</tbody>
+<tbody>
 
-.nav a{
-	/*font-size: 1.4em !important;*/
-}
+                      <!-- Row 5 -->
+                      <tr>
+                      <td id="left-image" style="padding:0 20px 0 100px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/ADIDAS700BONE.jpg') }}"><figcaption style="font-size: 14px;">ADIDAS x YEEZY 700 MNVN "BONE"</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 11TH - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
 
-* {box-sizing:border-box}
+                        <td id="right-image" style="padding:0 100px 0 20px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/ADIDAS350ZYON.jpg') }}">
+                                <figcaption style="font-size: 14px;">ADIDAS x YEEZY 350 V2 "ZYON"</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 18TH - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+</tbody>
+<tbody>
+                      <!-- Row 6 -->
+                      <tr>
+                      <td id="left-image" style="padding:0 20px 0 100px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/JORDAN12GP.jpg') }}"><figcaption style="font-size: 14px;">AIR JORDAN 12 "GARY PAYTON"</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 18TH - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 800px;
-  position: relative;
-  margin: auto;
-  padding-top: 80px;
-}
+                        <td id="right-image" style="padding:0 100px 0 20px" width="200">
+                        <table style="border: none; border-collapse: collapse" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td style="font-size: 18px; color: #000000; text-align: center; text-transform: uppercase; border:0">
+                                <a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/calendar"><img style="display:block;color:#ffffff" width="200" height="auto" border="0" src="{{ url('img/OFFWHITEJ4SP.jpg') }}">
+                                <figcaption style="font-size: 14px;">OFF-WHITE x AIR JORDAN 4 SP WMNS</figcaption>
+                                <figcaption style="font-size: 13px;">JULY 25TH - Tap For Price</figcaption></a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                  </tbody>
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade-in;
-  -webkit-animation-duration: 0.1s;
-  animation-name: fade-in;
-  animation-duration: 5s;
-}
-
-.fade-out{
-	-webkit-animation-name: fade-out;
-	-webkit-animation-duration: 0.1s;
-	animation-name: fade-out;
-	animation-duration: 5s;
-}
-
-@-webkit-keyframes fade-in {
-  from {opacity: .000001}
-  to {opacity: .95}
-}
-
-@-webkit-keyframes fade-out {
-  from {opacity: .95}
-  to {opacity: 0}
-}
-
-@keyframes fade-in {
-  from {opacity: .000001}
-  to {opacity: .95}
-}
-
-h2{
-	text-align: center;
-	padding-top: 120px;
-	font-family: nimbus-sans, sans-serif;
-	font-weight: 400;
-}
-
-p{
-	text-align: center;
-	padding-top: 80px;
-	font-family: nimbus-sans, sans-serif;
-  color: #e9782f;
-}
-
-h1{
-	padding-top: 50px;
-  color: #e9782f;
-}
-
-body {
-  padding-bottom:120px;
-}
-
-#logo-banner{
-  padding-top: 20px;
-}
-
-.footer{
-  padding-top:  120px;
-}
-#Prod-header{
-  text-align: center;
-}
-#navbarItems-tab > li{
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 1.5em;
-}
-.caption{
-  display: block;
-}
-#products1{
-   padding-top: 90px;
-  padding-bottom: 80px;
-}
-#products2{
-   padding-top: 90px;
-  padding-bottom: 80px;
-}
-#products-navbar{
-  background-color:  #e5d5b4;
-}
-
-.social-wrapper {
-  text-align: center;
-}
-.social-wrapper ul li {
-  display: inline;
-  margin: 0 5px;
-}
-.twitter-logo:hover
-.insta-logo:hover
-.gmail-logo:hover{
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-}
-.footer-nav span {
-  text-align: center;
-}
-#unstyled > li{
-  padding-right: 60px;
-  padding-left: 60px;
-}
-#size:hover {
-  border-color: black!important;
-  cursor: pointer;
-}
-figcaption:hover {
-  color: red;
-  cursor: pointer;
-}
-#logo {
-  opacity: 0.8;
-}
-#logo:hover {
-  opacity: 1.0;
-}
-h4 {
-  color: green;
-}
-
-.julyHeader{
-  padding-top: 20px;
-  padding-bottom: -50px;
-}
-
-.augustHeader{
-  padding-top: 20px;
-  padding-bottom: -50px;
-}
-#shoe-image{
-box-shadow: 3px 3px 4px #000000;
-}
+                 @include('template/footer')
+                </table>
 
 
-</style>
+          </tbody>
+        </table>
+        </td>
+        </tr>
+      
+   
 
 
-<html>
-   <section>
-
-  <!-- JULY SHOES -->
-    <h2 class="img-responsive" class="julyHeader" style="color: black; text-align: center; font-size: 40px; padding-bottom: 30px;">JULY<h2>
-
-    <div class="row text-center product-leftAK" id="products1" id="july">
-
-
-      <div class="col-md-4 d-flex justify-content-center">
-        <figure class="figure">
-          <img src="{{ url('img/offwhite-rubberduck.jpg') }}"
-          class="img-fluid" style="width: 275px; height: 200px;">
-          <figcaption style="text-decoration: underline; font-size: 17px;">OFF-WHITE x NIKE AIR RUBBER DUNK (UNIVERSITY GOLD)</figcaption>
-          <figcaption style="text-decoration: underline; font-size: 17px;">$189 - JULY 1ST</figcaption>
-        </figure>
       </div>
-
-</html>
+    </body>
 

@@ -29,8 +29,6 @@ class MailController extends Controller
             $message->from('dropshop4935@gmail.com');
             $message->bcc($emails);
             $message->subject('Release Calender');
-            $message->attach('img/offwhite-rubberduck.jpg');
-
         });
 
 
