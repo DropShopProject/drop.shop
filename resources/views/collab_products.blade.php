@@ -82,7 +82,7 @@
         <figure class="figure">
         <img src="{{ url($shoe->img_file_path) }}" class="img-fluid" style="width: 275px; height: 200px;" data-toggle="modal" data-target="#{{$shoe->modal_name}}" id="size">
         <figcaption style="text-decoration: underline; font-size: 17px;" data-toggle="modal" data-target="#{{$shoe->modal_name}}">
-          {{$shoe->product_name}} X {{$shoe->collab_name}}
+          {{$shoe->product_name}}
         </figcaption>
         <figcaption class="figure-caption text-center p-3">
           <button type="button" id="cmpBtn" class="btn btn-light" data-toggle="modal" data-target="#{{$shoe->modal_name}}">
