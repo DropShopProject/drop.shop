@@ -31,7 +31,7 @@
                                 <tbody></tbody>
                                 <tbody>
                                   <tr>
-                                    <td style="border-collapse:collapse;padding:0" align="center"><a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/products"><img style="display: block; border: none; max-height:auto; max-width: 640px" src="{{ url('img/july.jpg') }}" width="640" height="auto"></a>
+                                    <td style="border-collapse:collapse;padding:0" align="center"><a href="http://dropshop-env.eba-nf9ne3xu.us-east-2.elasticbeanstalk.com/products"><img style="display: block; border: none; max-height:auto; max-width: 640px" src="{{ url('img/JULY.jpg') }}" width="640" height="auto"></a>
                                     </td>
                                   </tr>
                                 </tbody>
