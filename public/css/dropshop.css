@@ -97,7 +97,7 @@ div#pageHeader {
   position: absolute!important;
   color: #e5d5b4!important;
   top: 40%!important;
-  left: 20%!important;
+  left: 25%!important;
   font-size: 5.4em;
   font-family: vogue;
 }
@@ -362,6 +362,7 @@ img.gmail-logo:hover{
   padding-left: 10px;
   padding-right: 10px;
   box-shadow: 0 0 10px #000000;
+  transition: .2s;
 }
 
 figcaption:hover {
