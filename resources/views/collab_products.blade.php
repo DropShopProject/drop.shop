@@ -9,7 +9,7 @@
   <div class="container" id="ctnBanner">
     <img src="{{ url('img/COLLABBANER.jpg') }}" id="ds-banner">
     <div class="text-uppercase" id="pageHeader">
-    {{$shoes[0]->collab_name}} <span class="text-lowercase">x</span> {{$shoes[0]->brand_name}}
+    {{$shoes[0]->collab_name}} <span class="text-lowercase">
     </div>
   </div>
 </div>
