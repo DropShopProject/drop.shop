@@ -31,11 +31,11 @@
           <option value="drake">DRAKE</option>
           <option value="yeezy">YEEZY</option>
           <option value="asap-rocky">A$AP ROCKY</option>
-          <option value="kobe">KOBE BRYANT</option>
+          <option value="kobe-bryant">KOBE BRYANT</option>
           <option value="ray-allen">RAY ALLEN</option>
           <option value="off-white">OFF-WHITE</option>
           <option value="supreme">SUPREME</option>
-          <option value="alex-wang">ALEXANDER WANG</option>
+          <option value="alexander-wang">ALEXANDER WANG</option>
           <option value="just-don">JUST DON</option>
           <option value="fear-of-god">FEAR OF GOD</option>
           <option value="rihanna">RIHANNA</option>

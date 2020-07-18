@@ -31,7 +31,7 @@
                     <a class="nav-link dropdown-toggle mr-auto" href="#" id="athleteDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ATHLETES
                     </a>
                     <div class="dropdown-menu" aria-labelledby="athleteDrop">
-                      <a class="dropdown-item mx-auto" href="{{ route('products', ['collab_name' => 'kobe']) }}">KOBE BRYANT</a>
+                      <a class="dropdown-item mx-auto" href="{{ route('products', ['collab_name' => 'kobe-bryant']) }}">KOBE BRYANT</a>
                       <a class="dropdown-item mx-auto" href="{{ route('products', ['collab_name' => 'ray-allen']) }}">RAY ALLEN
                       </a>
                     </div>
@@ -60,7 +60,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="designDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DESIGNERS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="designDrop">
-                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'alex-wang']) }}">ALEXANDER WANG
+                      <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'alexander-wang']) }}">ALEXANDER WANG
                       </a>
                       <a class="dropdown-item" href="{{ route('products', ['collab_name' => 'just-don']) }}">JUST DON
                       </a>
